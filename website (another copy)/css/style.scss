@@ -15,9 +15,11 @@
 .header {
   grid-area: header;
   background-color: #648ca6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
 }
-
-
 
 // NavBar
 /* Style the navigation menu */         // Actual drop down list
@@ -110,30 +112,9 @@ main-cards {
 // Footer
 .footer {
   grid-area: footer;
-  background-color: #648ca6;
-}
-
-// Additional Styling
-.header, .footer {
+  background-color: #648ca6;                  
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 16px;
-  background-color: #648ca6;
 }
-
-// .footer {                    // Trying to align footer icons
-//   display: flex;
-//   padding: 20px;
-//   height: 20px; 
-// }
-
-// .footer_icons {
-//   flex-direction: column;
-//   justify-content: flex-start;
-// }
-
-// .footer_copyright {
-//   flex-direction: row;
-//   align-content: flex-end;
-// }
