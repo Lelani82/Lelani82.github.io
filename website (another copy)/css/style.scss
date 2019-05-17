@@ -1,5 +1,13 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 
+$primary-bgcolor: #8fd4d9;
+$secondary-bgcolor: #82bef6;
+$header-footer-bgcolor:  #648ca6;
+$main-header-bgcolor: #e3e4e6;
+$primary-fontcolor: slategray;
+$secondary-fontcolor: black;
+$tertiary-fontcolor: #ddd;
+
 .grid-container {
   display: grid;
   grid-template-columns: 100%;
@@ -9,12 +17,13 @@
     "main"
     "footer";
   height: 100vh;
+  min-width: 204px;
 }
 
 // Header
 .header {
   grid-area: header;
-  background-color: #648ca6;
+  background-color: $header-footer-bgcolor;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,20 +34,20 @@
 /* Style the navigation menu */         // Actual drop down list
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: $header-footer-bgcolor;
   position: relative;
   margin-top: 230px;     
   margin-left: -20px;  
 }
 
-// /* Hide the links inside the navigation menu (except for logo/home) */   DONT THINK I NEED THIS
+// /* Hide the links inside the navigation menu (except for logo/home) */   
 .topnav #myLinks {
   display: none;
 }
 
 /* Style navigation menu links */     // Links of drop down menu text style
 .topnav a {
-  color: white;
+  color: $tertiary-fontcolor;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -47,31 +56,30 @@
 
 /* Style the hamburger menu */      // Drop down menu box
 .topnav a.icon {
-  background: black;
+  background: $header-footer-bgcolor;
   display: block;
-  position: fixed;    // Was abslute
+  position: fixed;    
   left: 0;
   top: 0;
   width: 51px;
-  text-align: center;
+  text-align: left;
 }
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: $header-footer-bgcolor;
+  color: $tertiary-fontcolor;
 }
 
-/* Style the active link (or home/logo) */         // Dont think I need this
-.active {
-  // background-color: #4CAF50;
-  color: white;
-}
+// /* Style the active link (or home/logo) */         DONT THINK I NEED THIS
+// .active {
+//   color: hotpink;
+// }
 
 // Main
 .main {
   grid-area: main;
-  background-color: #8fd4d9;
+  background-color: $primary-bgcolor;
 }
 
 .main-header {
@@ -80,8 +88,8 @@
   margin: 20px;
   padding: 20px;
   height: 20px; /* Force our height since we don't have actual content yet */
-  background-color: #e3e4e6;
-  color: slategray;
+  background-color: $main-header-bgcolor;
+  color: $primary-fontcolor;
 }
 
 main-cards {
@@ -95,7 +103,7 @@ main-cards {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #82bef6;
+  background-color: $secondary-bgcolor;
   margin-bottom: 20px;
   -webkit-column-break-inside: avoid;
   padding: 24px;
@@ -112,9 +120,23 @@ main-cards {
 // Footer
 .footer {
   grid-area: footer;
-  background-color: #648ca6;                  
+  background-color: $header-footer-bgcolor;                  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+// a > i{
+//   padding-right: 15px;
+// }
+
+.fa-github, .fa-linkedin-in, .fa-twitter {
+  color: $secondary-fontcolor;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#footer_copyright {
+  font-size: 60%;
 }
