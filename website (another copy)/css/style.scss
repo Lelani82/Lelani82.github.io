@@ -1,4 +1,9 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import "partials/about";
+@import "partials/projects";
+@import "partials/index";
+@import "partials/contant";
+
 
 $primary-bgcolor: #8fd4d9;
 $secondary-bgcolor: #82bef6;
@@ -92,31 +97,6 @@ $tertiary-fontcolor: #ddd;
   color: $primary-fontcolor;
 }
 
-main-cards {
-  column-count: 2;
-  column-gap: 20px;
-  margin: 20px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  background-color: $secondary-bgcolor;
-  margin-bottom: 20px;
-  -webkit-column-break-inside: avoid;
-  padding: 24px;
-  box-sizing: border-box;
-}
-
-.card:first-child {
-  height: 25%;
-}
-.card:last-child {
-  height: 25%;
-}
-
 // Footer
 .footer {
   grid-area: footer;
@@ -126,10 +106,6 @@ main-cards {
   justify-content: center;
   align-items: center;
 }
-
-// a > i{
-//   padding-right: 15px;
-// }
 
 .fa-github, .fa-linkedin-in, .fa-twitter {
   color: $secondary-fontcolor;
