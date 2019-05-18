@@ -1,0 +1,17 @@
+$primary-bgcolor: #8fd4d9;
+$secondary-bgcolor: #82bef6;
+$header-footer-bgcolor:  #648ca6;
+$main-header-bgcolor: #e3e4e6;
+$primary-fontcolor: slategray;
+$secondary-fontcolor: black;
+$tertiary-fontcolor: #ddd;
+
+//Contact form media queries:
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
