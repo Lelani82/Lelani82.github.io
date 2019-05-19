@@ -1,32 +1,4 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
-main-cards {
-  -webkit-column-count: 2;
-          column-count: 2;
-  -webkit-column-gap: 20px;
-          column-gap: 20px;
-  margin: 20px;
-}
-
-.card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  background-color: #82bef6;
-  margin-bottom: 20px;
-  -webkit-column-break-inside: avoid;
-  padding: 24px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .card:first-child {
   height: 25%;
 }
@@ -37,34 +9,6 @@ main-cards {
 
 .card:last-child {
   height: 25%;
-}
-
-main-cards {
-  -webkit-column-count: 2;
-          column-count: 2;
-  -webkit-column-gap: 20px;
-          column-gap: 20px;
-  margin: 20px;
-}
-
-.card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  background-color: #82bef6;
-  margin-bottom: 20px;
-  -webkit-column-break-inside: avoid;
-  padding: 24px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .card:first-child {
@@ -117,34 +61,6 @@ main-cards {
   font-style: "Montserrat", sans-serif;
 }
 
-main-cards {
-  -webkit-column-count: 2;
-          column-count: 2;
-  -webkit-column-gap: 20px;
-          column-gap: 20px;
-  margin: 20px;
-}
-
-.card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  background-color: #82bef6;
-  margin-bottom: 20px;
-  -webkit-column-break-inside: avoid;
-  padding: 24px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .card:first-child {
   height: 100%;
 }
@@ -158,6 +74,7 @@ input[type=text], select, textarea {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   resize: vertical;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Style the label to display next to the inputs */
@@ -168,8 +85,9 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #39a1e8;
-  color: white;
+  background-color: #648ca6;
+  color: #ddd;
+  font-family: "Montserrat", sans-serif;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -206,10 +124,73 @@ input[type=submit] {
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
+@media screen and (min-width: 768px) {
+  .grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 20px 47px 1fr 60px;
+        grid-template-rows: 20px 47px 1fr 60px;
+        grid-template-areas: "topnav" "header" "main" "footer";
+    height: 100vh;
+  }
+  /* Style the navigation menu */
+  .topnav {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: topnav;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 20px;
     width: 100%;
-    margin-top: 0;
+    position: fixed;
+    overflow-x: auto;
+    z-index: 2;
+    background-color: #648ca6;
+    -webkit-transform: translateX(-245px);
+            transform: translateX(-245px);
+  }
+  .icon {
+    display: hidden;
+  }
+  /* Style navigation menu links */
+  .topnav a {
+    color: #ddd;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    font-style: "Merriweather", serif;
+  }
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: hidden;
+  }
+  /* Add a background color on mouse-over */
+  .topnav a:hover {
+    display: hidden;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: header;
+    background-color: #648ca6;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 16px;
   }
 }
 
@@ -276,7 +257,7 @@ input[type=submit] {
   text-align: left;
 }
 
-/* Add a grey background color on mouse-over */
+/* Add a background color on mouse-over */
 .topnav a:hover {
   background-color: #648ca6;
   color: #ddd;
@@ -308,7 +289,32 @@ input[type=submit] {
   font-size: 100%;
 }
 
+main-cards {
+  -webkit-column-count: 2;
+          column-count: 2;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  margin: 20px;
+}
+
 .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: #82bef6;
+  margin-bottom: 20px;
+  -webkit-column-break-inside: avoid;
+  padding: 24px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 80%;
@@ -344,5 +350,6 @@ input[type=submit] {
 #footer_copyright {
   font-size: 4%;
   font-style: "Montserrat", sans-serif;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
