@@ -1,4 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
 @import "partials/about";
 @import "partials/projects";
 @import "partials/index";
@@ -7,12 +8,17 @@
 
 
 $primary-bgcolor: #8fd4d9;
-$secondary-bgcolor: #82bef6;
-$header-footer-bgcolor:  #648ca6;
+$secondary-bgcolor: #648ca6;// or #82bef6
+$header-footer-bgcolor: #648ca6;   // or #0ca1e8  
 $main-header-bgcolor: #e3e4e6;
 $primary-fontcolor: slategray;
 $secondary-fontcolor: black;
 $tertiary-fontcolor: #ddd;
+$primary-fontstyle: 'Merriweather', serif;
+$secondary-fontstyle: 'Montserrat', sans-serif;
+// keyframe colours:
+$primary-index-bgcolor: #1979ff;      // or #0000ff
+$secondary-index-bgcolor: #0d19ff;    // or #5F4AD3  or #0c3fe8
 
 .grid-container {
   display: grid;
@@ -57,7 +63,8 @@ $tertiary-fontcolor: #ddd;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  display: block;  
+  display: block;
+  font-style: $primary-fontstyle;  
 }
 
 /* Style the hamburger menu */      // Drop down menu box
@@ -93,9 +100,20 @@ $tertiary-fontcolor: #ddd;
   justify-content: space-evenly;
   margin: 20px;
   padding: 20px;
-  height: 20px; /* Force our height since we don't have actual content yet */
+  height: 20px;
   background-color: $main-header-bgcolor;
+}
+
+.main-header__heading {
   color: $primary-fontcolor;
+  font-family: $primary-fontstyle;
+  font-size: 100%;
+}
+
+.card {
+  color: $secondary-fontcolor;
+  font-family: $secondary-fontstyle; 
+  font-size: 80%;
 }
 
 // Footer
@@ -116,5 +134,6 @@ $tertiary-fontcolor: #ddd;
 }
 
 #footer_copyright {
-  font-size: 45%;
+  font-size: 4%;
+  font-style: $secondary-fontstyle;
 }

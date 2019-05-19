@@ -93,27 +93,28 @@ main-cards {
 
 @-webkit-keyframes pulse {
   0%, 100% {
-    background-color: #17ADD2;
+    background-color: #1979ff;
   }
   50% {
-    background-color: #5F4AD3;
+    background-color: #0d19ff;
   }
 }
 
 @keyframes pulse {
   0%, 100% {
-    background-color: #17ADD2;
+    background-color: #1979ff;
   }
   50% {
-    background-color: #5F4AD3;
+    background-color: #0d19ff;
   }
 }
 
 #intro-message {
-  color: white;
+  color: #ddd;
   font-size: 140%;
   text-shadow: 2px 1px black;
   text-align: center;
+  font-style: "Montserrat", sans-serif;
 }
 
 main-cards {
@@ -228,7 +229,7 @@ input[type=submit] {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: header;
-  background-color: #648ca6;
+  background-color: #39a1e8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -244,7 +245,7 @@ input[type=submit] {
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #648ca6;
+  background-color: #39a1e8;
   position: relative;
   margin-top: 230px;
   margin-left: -20px;
@@ -261,11 +262,12 @@ input[type=submit] {
   text-decoration: none;
   font-size: 17px;
   display: block;
+  font-style: "Merriweather", serif;
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #648ca6;
+  background: #39a1e8;
   display: block;
   position: fixed;
   left: 0;
@@ -276,7 +278,7 @@ input[type=submit] {
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #648ca6;
+  background-color: #39a1e8;
   color: #ddd;
 }
 
@@ -297,16 +299,26 @@ input[type=submit] {
   margin: 20px;
   padding: 20px;
   height: 20px;
-  /* Force our height since we don't have actual content yet */
   background-color: #e3e4e6;
+}
+
+.main-header__heading {
   color: slategray;
+  font-family: "Merriweather", serif;
+  font-size: 100%;
+}
+
+.card {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 80%;
 }
 
 .footer {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: footer;
-  background-color: #648ca6;
+  background-color: #39a1e8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -330,6 +342,7 @@ input[type=submit] {
 }
 
 #footer_copyright {
-  font-size: 45%;
+  font-size: 4%;
+  font-style: "Montserrat", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
