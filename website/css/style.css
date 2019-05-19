@@ -168,7 +168,7 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #39a1e8;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -229,7 +229,7 @@ input[type=submit] {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: header;
-  background-color: #39a1e8;
+  background-color: #648ca6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -245,7 +245,7 @@ input[type=submit] {
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #39a1e8;
+  background-color: #648ca6;
   position: relative;
   margin-top: 230px;
   margin-left: -20px;
@@ -267,7 +267,7 @@ input[type=submit] {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #39a1e8;
+  background: #648ca6;
   display: block;
   position: fixed;
   left: 0;
@@ -278,7 +278,7 @@ input[type=submit] {
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #39a1e8;
+  background-color: #648ca6;
   color: #ddd;
 }
 
@@ -318,7 +318,7 @@ input[type=submit] {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: footer;
-  background-color: #39a1e8;
+  background-color: #648ca6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

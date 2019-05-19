@@ -1,10 +1,15 @@
-$primary-bgcolor: #8fd4d9;
-$secondary-bgcolor: #82bef6;
-$header-footer-bgcolor:  #648ca6;
-$main-header-bgcolor: #e3e4e6;
-$primary-fontcolor: slategray;
-$secondary-fontcolor: black;
-$tertiary-fontcolor: #ddd;
+// $primary-bgcolor: #8fd4d9;
+// $secondary-bgcolor: #648ca6;//#648ca6;// or #82bef6
+// $header-footer-bgcolor: #648ca6;   // or #0ca1e8  
+// $main-header-bgcolor: #e3e4e6;
+// $primary-fontcolor: slategray;
+// $secondary-fontcolor: black;
+// $tertiary-fontcolor: #ddd;
+// $primary-fontstyle: 'Merriweather', serif;
+// $secondary-fontstyle: 'Montserrat', sans-serif;
+// // keyframe colours:
+// $primary-index-bgcolor: #1979ff;      // or #0000ff
+// $secondary-index-bgcolor: #0d19ff;    // or #5F4AD3  or #0c3fe8
 
 //Contact form media queries:
 
@@ -15,3 +20,52 @@ $tertiary-fontcolor: #ddd;
       margin-top: 0;
     }
   }
+
+// Janels media queries
+@media screen and (min-width: 768px) {
+  #main-image {
+    -webkit-box-flex: 0;
+        -ms-flex: 0;
+            flex: 0;
+  }
+  #main-secondary {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  header,
+  .maintext,
+  nav {
+    font-size: 1.5em;
+  }
+}
+
+// #resources-nav {
+//   margin-left: auto;
+// }
+
+// #resources-nav a {
+//   color: black;
+//   font-family: "Roboto", sans-serif;
+// }
+
+// #resources {
+//   -ms-grid-row: 3;
+//   -ms-grid-column: 1;
+//   grid-area: resources;
+//   display: -webkit-box;
+//   display: -ms-flexbox;
+//   display: flex;
+//   -ms-flex-wrap: wrap;
+//       flex-wrap: wrap;
+//   -webkit-box-pack: center;
+//       -ms-flex-pack: center;
+//           justify-content: center;
+//   -webkit-box-align: center;
+//       -ms-flex-align: center;
+//           align-items: center;
+// }
+// /*# sourceMappingURL=style.css.map */
