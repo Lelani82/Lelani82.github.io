@@ -23,9 +23,11 @@ Description of your portfolio website, including,
    ###Tech stack (e.g. html, css, deployment platform, etc) 
    HTML
    SASS (CSS)
+   JS
 
 Design documentation including, 
    Design process 
+   Originally wanted to do 1 page per day and test from there but ended up doing all mobile template layouts first, testing and then moving onto media queries & larger screens - way better
    Wireframes 
    Personal logo (optional) 
    Usability considerations 

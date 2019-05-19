@@ -17,7 +17,7 @@ $tertiary-fontcolor: #ddd;
 .grid-container {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 47px 1fr 90px;
+  grid-template-rows: 47px 1fr 60px;
   grid-template-areas:
     "header"
     "main"
@@ -112,8 +112,9 @@ $tertiary-fontcolor: #ddd;
   color: $secondary-fontcolor;
   padding-right: 10px;
   padding-left: 10px;
+  padding-bottom: 8px;
 }
 
 #footer_copyright {
-  font-size: 60%;
+  font-size: 45%;
 }
