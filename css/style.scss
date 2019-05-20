@@ -1,17 +1,17 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 
-$primary-bgcolor: #8fd4d9;
-$secondary-bgcolor: #82bef6;
-$header-footer-bgcolor: #648ca6;   // or #0ca1e8  
+$primary-bgcolor: #25274D;
+$secondary-bgcolor: #e3e4e6;
+$header-footer-bgcolor: #2e9cca;//#648ca6;   // or #0ca1e8  
 $main-header-bgcolor: #e3e4e6;
-$primary-fontcolor: slategray;
-$secondary-fontcolor: black;
+$primary-fontcolor: #464866;
+$secondary-fontcolor:  black;
 $tertiary-fontcolor: #ddd;
 $primary-fontstyle: 'Merriweather', serif;
 $secondary-fontstyle: 'Montserrat', sans-serif;
 // keyframe colours:
-$primary-index-bgcolor: #1979ff;      // or #0000ff
-$secondary-index-bgcolor: #0d19ff;    // or #5F4AD3  or #0c3fe8
+$primary-index-bgcolor: #25274d;  // #1979ff;      // or #0000ff
+$secondary-index-bgcolor: #29648a;//#0d19ff;    // or #5F4AD3  or #0c3fe8
 
 @import "partials/about";
 @import "partials/projects";
@@ -28,7 +28,7 @@ $secondary-index-bgcolor: #0d19ff;    // or #5F4AD3  or #0c3fe8
     "main"
     "footer";
   height: 100vh;
-  // min-width: 204px;
+  min-width: 204px;
 
 }
 
@@ -126,6 +126,7 @@ $secondary-index-bgcolor: #0d19ff;    // or #5F4AD3  or #0c3fe8
 .main-cards {
   display: flex;
   flex-direction: column;
+  // flex-direction: row;       // puts cards next to each other
   align-items: center;
   justify-content: center;
   align-content: center;
@@ -144,7 +145,6 @@ $secondary-index-bgcolor: #0d19ff;    // or #5F4AD3  or #0c3fe8
   color: $secondary-fontcolor;
   font-family: $secondary-fontstyle; 
   font-size: 80%;
-  
 }
 
 // Footer
@@ -159,7 +159,7 @@ $secondary-index-bgcolor: #0d19ff;    // or #5F4AD3  or #0c3fe8
 }
 
 .fa-github, .fa-linkedin-in, .fa-twitter {
-  color: $secondary-fontcolor;
+  color: $tertiary-fontcolor;
   padding-right: 5px;
   padding-left: 5px;
   padding-bottom: 8px;
@@ -168,5 +168,5 @@ $secondary-index-bgcolor: #0d19ff;    // or #5F4AD3  or #0c3fe8
 #footer_copyright {
   font-size: 4%;
   font-style: $secondary-fontstyle;
-  color: $secondary-fontcolor;
+  color: $tertiary-fontcolor;
 }

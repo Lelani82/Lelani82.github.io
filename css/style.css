@@ -37,19 +37,19 @@
 
 @-webkit-keyframes pulse {
   0%, 100% {
-    background-color: #1979ff;
+    background-color: #25274d;
   }
   50% {
-    background-color: #0d19ff;
+    background-color: #29648a;
   }
 }
 
 @keyframes pulse {
   0%, 100% {
-    background-color: #1979ff;
+    background-color: #25274d;
   }
   50% {
-    background-color: #0d19ff;
+    background-color: #29648a;
   }
 }
 
@@ -85,7 +85,7 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #648ca6;
+  background-color: #2e9cca;
   color: #ddd;
   font-family: "Montserrat", sans-serif;
   padding: 12px 20px;
@@ -141,13 +141,14 @@ input[type=submit] {
       grid-template-rows: 60px 1fr 60px;
       grid-template-areas: "header" "main" "footer";
   height: 100vh;
+  min-width: 204px;
 }
 
 .header {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: header;
-  background-color: #648ca6;
+  background-color: #2e9cca;
   padding: 0 16px;
   position: fixed;
   height: 60px;
@@ -164,7 +165,7 @@ input[type=submit] {
       -ms-flex-direction: column;
           flex-direction: column;
   grid-area: topnav;
-  background-color: #648ca6;
+  background-color: #2e9cca;
   font-style: "Merriweather", serif;
   color: #ddd;
   position: absolute;
@@ -188,7 +189,7 @@ input[type=submit] {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #648ca6;
+  background: #2e9cca;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -209,7 +210,7 @@ input[type=submit] {
 
 /* Add a background color on mouse-over */
 #myLinks :hover {
-  background-color: #648ca6;
+  background-color: #2e9cca;
   color: #ddd;
   cursor: pointer;
 }
@@ -218,7 +219,7 @@ input[type=submit] {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: main;
-  background-color: #8fd4d9;
+  background-color: #25274D;
 }
 
 .main-header {
@@ -235,7 +236,7 @@ input[type=submit] {
 }
 
 .main-header__heading {
-  color: slategray;
+  color: #464866;
   font-family: "Merriweather", serif;
   font-size: 100%;
 }
@@ -265,7 +266,7 @@ input[type=submit] {
 
 .card {
   width: 100%;
-  background-color: #82bef6;
+  background-color: #e3e4e6;
   margin-bottom: 20px;
   padding: 24px;
   -webkit-box-sizing: border-box;
@@ -279,7 +280,7 @@ input[type=submit] {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: footer;
-  background-color: #648ca6;
+  background-color: #2e9cca;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -297,7 +298,7 @@ input[type=submit] {
 }
 
 .fa-github, .fa-linkedin-in, .fa-twitter {
-  color: black;
+  color: #ddd;
   padding-right: 5px;
   padding-left: 5px;
   padding-bottom: 8px;
@@ -306,6 +307,6 @@ input[type=submit] {
 #footer_copyright {
   font-size: 4%;
   font-style: "Montserrat", sans-serif;
-  color: black;
+  color: #ddd;
 }
 /*# sourceMappingURL=style.css.map */
