@@ -17,29 +17,30 @@ $secondary-index-bgcolor: #0d19ff;    // or #5F4AD3  or #0c3fe8
 @import "partials/projects";
 @import "partials/index";
 @import "partials/contact";
-@import "partials/mediaqueries";
+// @import "partials/mediaqueries";
 
 .grid-container {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 47px 1fr 60px;
+  //grid-template-rows: 47px 1fr 60px;
+  grid-template-rows: 60px 1fr 60px;
   grid-template-areas:
     "header"
     "main"
     "footer";
   height: 100vh;
   min-width: 204px;
+
 }
 
 // Header
 .header {
   grid-area: header;
   background-color: $header-footer-bgcolor;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 0 16px;
   position: fixed;
+  height: 60px;
+  width: 100%;
 }
 
 // NavBar
@@ -52,42 +53,41 @@ $secondary-index-bgcolor: #0d19ff;    // or #5F4AD3  or #0c3fe8
   background-color: $header-footer-bgcolor;
   font-style: $primary-fontstyle; 
   color: $tertiary-fontcolor;
-  // position: relative;
-  // margin-top: 230px;     
-  // margin-left: -20px;  
+  position: absolute;
+  margin-top: 115px;     
+  margin-left: -20px;  
 }
 
 // /* Hide the links inside the navigation menu (except for logo/home) */   
-// .topnav #myLinks {
-//   display: none;
-// }
+.topnav #myLinks {
+  display: none;
+}
 
 /* Style navigation menu links */     // Links of drop down menu text style
-// .topnav a {
-//   color: hotpink;
-//   padding: 14px 16px;
-//   text-decoration: none;
-//   font-size: 17px;
-//   display: block;
-//    
-// }
+.topnav a {
+  color: $tertiary-fontcolor;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  position: relative;
+}
 
-/* Style the hamburger menu */      // Drop down menu box
-// .topnav a.icon {
-//   background: $header-footer-bgcolor;
-//   display: flex;
-//   position: fixed;    
-//   left: 10px;
-//   top: 5px;
-// //   // width: 51px;
-// //   // text-align: left;
-//   align-items: center;
-//   justify-content: center;
-//   border-radius: 50%;
-//   z-index: 1;
-//   cursor: pointer;
-//   padding: 12px;
-// }
+/* Style the hamburger menu */      // hamburger menu icon
+.topnav a.icon {
+  background: $header-footer-bgcolor;
+  display: flex;
+  position: fixed;    
+  // left: 5px;
+  top: 8px;
+  width: 51px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  cursor: pointer;
+  padding: 12px;
+}
 
 /* Add a background color on mouse-over */
 #myLinks :hover {

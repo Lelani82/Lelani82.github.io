@@ -123,84 +123,13 @@ input[type=submit] {
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (min-width: 768px) {
-  .grid-container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 100%;
-        grid-template-columns: 100%;
-    -ms-grid-rows: 20px 47px 1fr 60px;
-        grid-template-rows: 20px 47px 1fr 60px;
-        grid-template-areas: "topnav" "header" "main" "footer";
-    height: 100vh;
-  }
-  /* Style the navigation menu */
-  .topnav {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    grid-area: topnav;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    height: 20px;
-    width: 100%;
-    position: fixed;
-    overflow-x: auto;
-    z-index: 2;
-    background-color: #648ca6;
-    -webkit-transform: translateX(-245px);
-            transform: translateX(-245px);
-  }
-  .icon {
-    display: hidden;
-  }
-  /* Style navigation menu links */
-  .topnav a {
-    color: #ddd;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-    font-style: "Merriweather", serif;
-  }
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    display: hidden;
-  }
-  /* Add a background color on mouse-over */
-  .topnav a:hover {
-    display: hidden;
-  }
-  .header {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    grid-area: header;
-    background-color: #648ca6;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding: 0 16px;
-  }
-}
-
 .grid-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
-  -ms-grid-rows: 47px 1fr 60px;
-      grid-template-rows: 47px 1fr 60px;
+  -ms-grid-rows: 60px 1fr 60px;
+      grid-template-rows: 60px 1fr 60px;
       grid-template-areas: "header" "main" "footer";
   height: 100vh;
   min-width: 204px;
@@ -211,24 +140,27 @@ input[type=submit] {
   -ms-grid-column: 1;
   grid-area: header;
   background-color: #648ca6;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding: 0 16px;
+  position: fixed;
+  height: 60px;
+  width: 100%;
 }
 
 /* Style the navigation menu */
 .topnav {
-  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  grid-area: topnav;
   background-color: #648ca6;
-  position: relative;
-  margin-top: 230px;
+  font-style: "Merriweather", serif;
+  color: #ddd;
+  position: absolute;
+  margin-top: 115px;
   margin-left: -20px;
 }
 
@@ -243,24 +175,35 @@ input[type=submit] {
   text-decoration: none;
   font-size: 17px;
   display: block;
-  font-style: "Merriweather", serif;
+  position: relative;
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
   background: #648ca6;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: fixed;
-  left: 0;
-  top: 0;
+  top: 8px;
   width: 51px;
   text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1;
+  cursor: pointer;
+  padding: 12px;
 }
 
 /* Add a background color on mouse-over */
-.topnav a:hover {
+#myLinks :hover {
   background-color: #648ca6;
   color: #ddd;
+  cursor: pointer;
 }
 
 .main {
