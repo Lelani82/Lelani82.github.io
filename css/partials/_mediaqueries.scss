@@ -3,149 +3,41 @@
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 // @media screen and (max-width: 600px) {
 @media screen and (min-width: 768px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
+  // .topnav {
+  //   display: flex;
+  //   flex-direction: row;
+  // }
+
+  // .topnav_close-icon {
+  //   visibility: hidden;
+  // }
+
+  .main-cards {
+    column-count: 2;
+    column-gap: 20px;
+    margin: 20px;
+       
+  }
+
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card:first-child {
+    float: left;
+  }
+      
+  .card:nth-child(2) {
+    float: right;
+  }
+
+  .card:last-child {
+    float: right;
+  }
+
+  // .col-25, .col-75, input[type=submit] {
+  //   width: 100%;
+  //   margin-top: 0;
+  // }
 }
-
-    // copied head, nav, body & footer
-
-// NavBar
-/* Style the navigation menu */         // Actual drop down list
-//   .topnav {
-//     // grid-area: topnav;
-//     display: flex;
-//     flex-direction: row;
-//   }
-// }
-//   height: 20px;
-//   width: 100%;
-//   position: fixed;
-//   overflow-x: auto;
-//   z-index: 2;
-//   background-color: $header-footer-bgcolor;
-//   transform: translateX(-245px);     
-//   // transition: : all .6s ease-in-out;
-
-
-/* Style navigation menu links */     // Links of drop down menu text style
-// .topnav a {
-//   color: $tertiary-fontcolor;
-//   padding: 14px 16px;
-//   text-decoration: none;
-//   font-size: 17px;
-//   display: block;
-//   font-style: $primary-fontstyle;  
-  // display: none;
-// }
-
-//  Header
-//  .header {
-//   grid-area: header;
-//   background-color: $header-footer-bgcolor;
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-between;
-//   padding: 0 16px;
-// }
-
-// // Main
-// .main {
-//   grid-area: main;
-//   background-color: $primary-bgcolor;
-// }
-
-// .main-header {
-//   display: flex;
-//   justify-content: space-evenly;
-//   margin: 20px;
-//   padding: 20px;
-//   height: 20px;
-//   background-color: $main-header-bgcolor;
-// }
-
-// .main-header__heading {
-//   color: $primary-fontcolor;
-//   font-family: $primary-fontstyle;
-//   font-size: 100%;
-// }
-
-// main-cards {
-//   column-count: 2;
-//   column-gap: 20px;
-//   margin: 20px;
-// }
-
-// .card {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   width: 100%;//   background-color: $secondary-bgcolor;
-//   margin-bottom: 20px;
-//   -webkit-column-break-inside: avoid;
-//   padding: 24px;
-//   box-sizing: border-box;
-//   color: $secondary-fontcolor;
-//   font-family: $secondary-fontstyle; 
-//   font-size: 80%;
-// }
-
-//     // #myLinks {
-//     //   display: flex;
-//     //   flex-direction: row; 
-//     // }
-//     // .topnav a.icon {
-//     //   display: hidden;
-//     // }
-
-//     // .topnav {
-//     //   display: flex;
-//     //   flex-direction: row;
-//     // }
-//   // #main-image {
-//   //   -webkit-box-flex: 0;
-//   //       -ms-flex: 0;
-//   //           flex: 0;
-//   // }
-//   // #main-secondary {
-//   //   -webkit-box-flex: 1;
-//   //       -ms-flex: 1;
-//   //           flex: 1;
-//   // }
-// }
-
-// @media screen and (min-width: 1281px) {
-//   // header,
-//   // .maintext,
-//   // nav {
-//   //   font-size: 1.5em;
-//   // }
-// }
-
-// // #resources-nav {
-// //   margin-left: auto;
-// // }
-
-// // #resources-nav a {
-// //   color: black;
-// //   font-family: "Roboto", sans-serif;
-// // }
-
-// // #resources {
-// //   -ms-grid-row: 3;
-// //   -ms-grid-column: 1;
-// //   grid-area: resources;
-// //   display: -webkit-box;
-// //   display: -ms-flexbox;
-// //   display: flex;
-// //   -ms-flex-wrap: wrap;
-// //       flex-wrap: wrap;
-// //   -webkit-box-pack: center;
-// //       -ms-flex-pack: center;
-// //           justify-content: center;
-// //   -webkit-box-align: center;
-// //       -ms-flex-align: center;
-// //           align-items: center;
-// // }
-// // /*# sourceMappingURL=style.css.map */
