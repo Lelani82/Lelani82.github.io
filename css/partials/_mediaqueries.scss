@@ -1,43 +1,54 @@
-//Contact form media queries:
+// //Contact form media queries:
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-// @media screen and (max-width: 600px) {
-@media screen and (min-width: 768px) {
-  // .topnav {
-  //   display: flex;
-  //   flex-direction: row;
-  // }
+// /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+// // @media screen and (max-width: 600px) {
+// // @media screen and (min-width: 768px) {
+//   // .topnav {
+//   //   display: flex;
+//   //   flex-direction: row;
+//   // }
 
-  // .topnav_close-icon {
-  //   visibility: hidden;
-  // }
+//   // .topnav_close-icon {
+//   //   visibility: hidden;
+//   // }
 
-  .main-cards {
-    column-count: 2;
-    column-gap: 20px;
-    margin: 20px;
-       
-  }
-
-  .card {
-    display: flex;
-    flex-wrap: wrap;
-  }
+//   // .main-cards {
+//   //   display: grid;
+//   //   grid-template-columns: 1fr 1fr;
+//     // grid-template-rows: 60px 1fr 60px;
+//     // column-gap: 20px;
+//     // margin: 20px;
+//     // flex-direction: row;
+    
   
-  .card:first-child {
-    float: left;
-  }
+  
+  
+//   grid-template-areas:
+//     "first-child" "nth-child"
+//     "first-child" "last-child";
+//   // height: 100vh;
+//   }
+
+//   // .card {
+//   //   display: flex;
+//   //   flex-wrap: wrap;
+//   //   width: 300px;
+//   // }
+
+//   // .card:first-child {
+//   //   grid-area: first-child;
+//   // }
       
-  .card:nth-child(2) {
-    float: right;
-  }
+//   // .card:nth-child(2) {
+//   //   grid-area: nth-child; 
+//   // }
 
-  .card:last-child {
-    float: right;
-  }
+//   // .card:last-child {
+//   //   grid-area: last-child; 
+//   // }
 
-  // .col-25, .col-75, input[type=submit] {
-  //   width: 100%;
-  //   margin-top: 0;
-  // }
-}
+//   .col-25, .col-75, input[type=submit] {
+//     width: 100%;
+//     margin-top: 0;
+//   }
+// }
