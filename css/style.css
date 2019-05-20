@@ -160,7 +160,7 @@ input[type=submit] {
   font-style: "Merriweather", serif;
   color: #ddd;
   position: absolute;
-  margin-top: 115px;
+  margin-top: 50px;
   margin-left: -20px;
 }
 
@@ -232,9 +232,9 @@ input[type=submit] {
   font-size: 100%;
 }
 
-main-cards {
-  -webkit-column-count: 2;
-          column-count: 2;
+.main-cards {
+  -webkit-column-count: 1;
+          column-count: 1;
   -webkit-column-gap: 20px;
           column-gap: 20px;
   margin: 20px;

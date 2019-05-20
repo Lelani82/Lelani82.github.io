@@ -54,7 +54,7 @@ $secondary-index-bgcolor: #0d19ff;    // or #5F4AD3  or #0c3fe8
   font-style: $primary-fontstyle; 
   color: $tertiary-fontcolor;
   position: absolute;
-  margin-top: 115px;     
+  margin-top: 50px;     
   margin-left: -20px;  
 }
 
@@ -123,8 +123,8 @@ $secondary-index-bgcolor: #0d19ff;    // or #5F4AD3  or #0c3fe8
   font-size: 100%;
 }
 
-main-cards {
-  column-count: 2;
+.main-cards {
+  column-count: 1;
   column-gap: 20px;
   margin: 20px;
 }
