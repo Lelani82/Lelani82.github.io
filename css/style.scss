@@ -144,7 +144,6 @@ $secondary-index-bgcolor: #0d19ff;    // or #5F4AD3  or #0c3fe8
   font-size: 80%;
 }
 
-
 // Footer
 .footer {
   grid-area: footer;
@@ -158,8 +157,8 @@ $secondary-index-bgcolor: #0d19ff;    // or #5F4AD3  or #0c3fe8
 
 .fa-github, .fa-linkedin-in, .fa-twitter {
   color: $secondary-fontcolor;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
   padding-bottom: 8px;
 }
 

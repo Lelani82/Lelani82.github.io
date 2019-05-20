@@ -287,8 +287,8 @@ input[type=submit] {
 
 .fa-github, .fa-linkedin-in, .fa-twitter {
   color: black;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
   padding-bottom: 8px;
 }
 
