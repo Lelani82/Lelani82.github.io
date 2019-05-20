@@ -17,7 +17,7 @@ $secondary-index-bgcolor: #0d19ff;    // or #5F4AD3  or #0c3fe8
 @import "partials/projects";
 @import "partials/index";
 @import "partials/contact";
-// @import "partials/mediaqueries";
+@import "partials/mediaqueries";
 
 .grid-container {
   display: grid;
@@ -29,7 +29,7 @@ $secondary-index-bgcolor: #0d19ff;    // or #5F4AD3  or #0c3fe8
     "main"
     "footer";
   height: 100vh;
-  min-width: 204px;
+  // min-width: 204px;
 
 }
 
@@ -55,7 +55,8 @@ $secondary-index-bgcolor: #0d19ff;    // or #5F4AD3  or #0c3fe8
   color: $tertiary-fontcolor;
   position: absolute;
   margin-top: 50px;     
-  margin-left: -20px;  
+  margin-left: -20px; 
+
 }
 
 // /* Hide the links inside the navigation menu (except for logo/home) */   

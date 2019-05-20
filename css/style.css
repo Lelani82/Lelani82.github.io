@@ -124,6 +124,16 @@ input[type=submit] {
   clear: both;
 }
 
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 768px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* Style the navigation menu */
+/* Style navigation menu links */
 .grid-container {
   display: -ms-grid;
   display: grid;
@@ -133,7 +143,6 @@ input[type=submit] {
       grid-template-rows: 60px 1fr 60px;
       grid-template-areas: "header" "main" "footer";
   height: 100vh;
-  min-width: 204px;
 }
 
 .header {
