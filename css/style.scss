@@ -13,11 +13,9 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
 $primary-index-bgcolor: #25274d;  // #1979ff;      // or #0000ff
 $secondary-index-bgcolor: #29648a;//#0d19ff;    // or #5F4AD3  or #0c3fe8
 
-@import "partials/about";
-@import "partials/projects";
 @import "partials/index";
 @import "partials/contact";
-@import "partials/mediaqueries";
+@import "partials/projects";
 
 .grid-container {
   display: grid;
@@ -29,7 +27,6 @@ $secondary-index-bgcolor: #29648a;//#0d19ff;    // or #5F4AD3  or #0c3fe8
     "footer";
   height: 100vh;
   min-width: 204px;
-
 }
 
 // Header
@@ -137,7 +134,9 @@ $secondary-index-bgcolor: #29648a;//#0d19ff;    // or #5F4AD3  or #0c3fe8
   color: $secondary-fontcolor;
   font-family: $secondary-fontstyle; 
   font-size: 80%;
-  margin: 20px 20px;
+  margin: 10px 20px;
+  height: 25%;
+
 }
 
 // Footer
@@ -164,6 +163,7 @@ $secondary-index-bgcolor: #29648a;//#0d19ff;    // or #5F4AD3  or #0c3fe8
   color: $tertiary-fontcolor;
 }
 
+// Cards Responsive Layout:
 @media screen and (max-width: 600px) {
   .main-cards {
     flex-direction: column; 
