@@ -17,26 +17,26 @@
 
 @-webkit-keyframes pulse {
   0%, 100% {
-    background-color: #25274d;
+    background-color: blue;
   }
   50% {
-    background-color: #29648a;
+    background-color: #A024D6;
   }
 }
 
 @keyframes pulse {
   0%, 100% {
-    background-color: #25274d;
+    background-color: blue;
   }
   50% {
-    background-color: #29648a;
+    background-color: #A024D6;
   }
 }
 
 #intro-message {
   color: #ddd;
-  font-size: 140%;
-  text-shadow: 2px 1px black;
+  font-size: 190%;
+  font-weight: 500;
   text-align: center;
   font-style: "Montserrat", sans-serif;
 }
@@ -65,7 +65,7 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #2e9cca;
+  background-color: #25274D;
   color: #ddd;
   font-family: "Montserrat", sans-serif;
   padding: 12px 20px;
@@ -127,7 +127,7 @@ input[type=submit] {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: header;
-  background-color: #2e9cca;
+  background-color: #25274D;
   padding: 0 16px;
   position: fixed;
   height: 60px;
@@ -144,7 +144,7 @@ input[type=submit] {
       -ms-flex-direction: column;
           flex-direction: column;
   grid-area: topnav;
-  background-color: #2e9cca;
+  background-color: #25274D;
   font-style: "Merriweather", serif;
   color: #ddd;
   position: absolute;
@@ -168,7 +168,7 @@ input[type=submit] {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #2e9cca;
+  background: #25274D;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -189,7 +189,7 @@ input[type=submit] {
 
 /* Add a background color on mouse-over */
 #myLinks :hover {
-  background-color: #2e9cca;
+  background-color: #25274D;
   color: #ddd;
   cursor: pointer;
 }
@@ -261,7 +261,7 @@ input[type=submit] {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: footer;
-  background-color: #2e9cca;
+  background-color: #25274D;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
