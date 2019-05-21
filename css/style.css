@@ -14,7 +14,6 @@
 #projects-image {
   height: 25%;
   width: auto;
-  padding: 5% 10%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -278,6 +277,7 @@ input[type=submit] {
   color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 80%;
+  margin: 20px 20px;
 }
 
 .footer {

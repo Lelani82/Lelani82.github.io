@@ -137,6 +137,7 @@ $secondary-index-bgcolor: #29648a;//#0d19ff;    // or #5F4AD3  or #0c3fe8
   color: $secondary-fontcolor;
   font-family: $secondary-fontstyle; 
   font-size: 80%;
+  margin: 20px 20px;
 }
 
 // Footer
@@ -165,7 +166,7 @@ $secondary-index-bgcolor: #29648a;//#0d19ff;    // or #5F4AD3  or #0c3fe8
 
 @media screen and (max-width: 600px) {
   .main-cards {
-    flex-direction: column;
+    flex-direction: column; 
   }
   .main-cards>* {
     width: 100%;
