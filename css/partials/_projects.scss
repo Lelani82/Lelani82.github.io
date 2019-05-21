@@ -1,8 +1,10 @@
-  .card:first-child {
+  #projects-image {
     height: 25%;
-
+    width: auto;
+    padding: 5% 10%;
+    align-items: center;
   }
   
-  .card:last-child {
+  #projects-card {
     height: 25%;
   }

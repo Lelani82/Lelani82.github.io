@@ -17,7 +17,7 @@ $secondary-index-bgcolor: #29648a;//#0d19ff;    // or #5F4AD3  or #0c3fe8
 @import "partials/projects";
 @import "partials/index";
 @import "partials/contact";
-// @import "partials/mediaqueries";
+@import "partials/mediaqueries";
 
 .grid-container {
   display: grid;
@@ -96,12 +96,6 @@ $secondary-index-bgcolor: #29648a;//#0d19ff;    // or #5F4AD3  or #0c3fe8
   cursor: pointer;
 }
 
-// // /* Style the active link (or home/logo) */         DONT THINK I NEED THIS
-// .active {
-//   // color: hotpink;
-//   visibility: hidden;
-// }
-
 // Main
 .main {
   grid-area: main;
@@ -125,8 +119,7 @@ $secondary-index-bgcolor: #29648a;//#0d19ff;    // or #5F4AD3  or #0c3fe8
 
 .main-cards {
   display: flex;
-  flex-direction: column;
-  // flex-direction: row;       // puts cards next to each other
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   align-content: center;
@@ -139,7 +132,6 @@ $secondary-index-bgcolor: #29648a;//#0d19ff;    // or #5F4AD3  or #0c3fe8
   width: 100%;
   background-color: $secondary-bgcolor;
   margin-bottom: 20px;
-  // -webkit-column-break-inside: avoid;
   padding: 24px;
   box-sizing: border-box;
   color: $secondary-fontcolor;
@@ -169,4 +161,13 @@ $secondary-index-bgcolor: #29648a;//#0d19ff;    // or #5F4AD3  or #0c3fe8
   font-size: 4%;
   font-style: $secondary-fontstyle;
   color: $tertiary-fontcolor;
+}
+
+@media screen and (max-width: 600px) {
+  .main-cards {
+    flex-direction: column;
+  }
+  .main-cards>* {
+    width: 100%;
+  }
 }
