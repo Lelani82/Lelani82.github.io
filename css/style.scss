@@ -68,7 +68,7 @@ $secondary-index-bgcolor: #A024D6; //purple; #29648a;//#0d19ff;    // or #5F4AD3
   color: $tertiary-fontcolor;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 120%;
   display: block;
   position: relative;
 }
@@ -114,7 +114,8 @@ $secondary-index-bgcolor: #A024D6; //purple; #29648a;//#0d19ff;    // or #5F4AD3
 .main-header__heading {
   color: $primary-fontcolor;
   font-family: $primary-fontstyle;
-  font-size: 100%;
+  font-weight: 600;
+  font-size: 120%;
 }
 
 .main-cards {
@@ -132,11 +133,11 @@ $secondary-index-bgcolor: #A024D6; //purple; #29648a;//#0d19ff;    // or #5F4AD3
   width: 100%;
   background-color: $secondary-bgcolor;
   margin-bottom: 20px;
-  padding: 24px;
+  padding: 20px;
   box-sizing: border-box;
   color: $secondary-fontcolor;
   font-family: $secondary-fontstyle; 
-  font-size: 80%;
+  font-size: 100%;
   margin: 10px 20px;
   height: 25%;
 }

@@ -164,7 +164,7 @@ input[type=submit] {
   color: #ddd;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 120%;
   display: block;
   position: relative;
 }
@@ -220,7 +220,8 @@ input[type=submit] {
 .main-header__heading {
   color: #464866;
   font-family: "Roboto", sans-serif;
-  font-size: 100%;
+  font-weight: 600;
+  font-size: 120%;
 }
 
 .main-cards {
@@ -250,12 +251,12 @@ input[type=submit] {
   width: 100%;
   background-color: #e3e4e6;
   margin-bottom: 20px;
-  padding: 24px;
+  padding: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: black;
   font-family: "Montserrat", sans-serif;
-  font-size: 80%;
+  font-size: 100%;
   margin: 10px 20px;
   height: 25%;
 }
