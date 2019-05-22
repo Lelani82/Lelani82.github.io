@@ -121,6 +121,25 @@ input[type=submit] {
   border: 1px solid #028090;
 }
 
+#about-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2px;
+}
+
+#about-icons i {
+  padding-right: 13px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 13px;
+  color: black;
+}
+
 .grid-container {
   display: -ms-grid;
   display: grid;

@@ -1,13 +1,14 @@
 #about-icons {
+    display: flex;
     text-align: center;
-    vertical-align: middle;
+    justify-content: center;
     padding: 2px;
 }
 
 #about-icons i {
-    padding-right: 8px;
-    padding-bottom: 5px;
+    padding-right: 13px;
+    padding-bottom: 10px;
     padding-top: 5px;
-    padding-left: 8px;
+    padding-left: 13px;
     color: $secondary-fontcolor;
 } 
