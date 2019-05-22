@@ -1,18 +1,20 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
 
+// Background colours:
 $primary-bgcolor: #25274D;
 $secondary-bgcolor: #e3e4e6;
-$header-footer-bgcolor: #028090;//#fffff0;//#648ca6;   // or #0ca1e8  
+$header-footer-bgcolor: #1979ff;
 $main-header-bgcolor: #e3e4e6;
-$primary-fontcolor: #464866;
-$secondary-fontcolor:  black;
-$tertiary-fontcolor: #ddd;
+// keyframe colours:
+$primary-index-bgcolor: #0c3fe8;
+$secondary-index-bgcolor: #800080; 
+// Font colours:
+$primary-fontcolor: black;
+$secondary-fontcolor:  #ddd;
+// Font styles:
 $primary-fontstyle: 'Roboto', sans-serif;
 $secondary-fontstyle: 'Montserrat', sans-serif;
-// keyframe colours:
-$primary-index-bgcolor: blue;//#25274d;  // #1979ff;      // or #0000ff
-$secondary-index-bgcolor: #A024D6; //purple; #29648a;//#0d19ff;    // or #5F4AD3  or #0c3fe8
 
 @import "partials/index";
 @import "partials/contact";
@@ -44,29 +46,28 @@ $secondary-index-bgcolor: #A024D6; //purple; #29648a;//#0d19ff;    // or #5F4AD3
 }
 
 // NavBar
-/* Style the navigation menu */         // Actual drop down list
+// Actual drop down list
 .topnav {
-  // overflow: hidden;
   display: flex;
   flex-direction: column;
   grid-area: topnav;
   background-color: $header-footer-bgcolor;
   font-style: $primary-fontstyle; 
-  color: $tertiary-fontcolor;
+  color: $secondary-fontcolor;
   position: absolute;
   margin-top: 50px;     
   margin-left: -20px; 
   border-bottom-right-radius: 2%;
 }
 
-// /* Hide the links inside the navigation menu (except for logo/home) */   
+// Hide the links inside the navigation menu  
 .topnav #myLinks {
   display: none;
 }
 
-/* Style navigation menu links */     // Links of drop down menu text style
+// Links of drop down menu text style
 .topnav a {
-  color: $tertiary-fontcolor;
+  color: $secondary-fontcolor;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 120%;
@@ -74,12 +75,11 @@ $secondary-index-bgcolor: #A024D6; //purple; #29648a;//#0d19ff;    // or #5F4AD3
   position: relative;
 }
 
-/* Style the hamburger menu */      // hamburger menu icon
+// hamburger menu icon
 .topnav a.icon {
   background: $header-footer-bgcolor;
   display: flex;
   position: fixed;    
-  // left: 5px;
   top: 8px;
   width: 51px;
   text-align: left;
@@ -93,7 +93,7 @@ $secondary-index-bgcolor: #A024D6; //purple; #29648a;//#0d19ff;    // or #5F4AD3
 /* Add a background color on mouse-over */
 #myLinks :hover {
   background-color: $header-footer-bgcolor;
-  color: $tertiary-fontcolor;
+  color: $secondary-fontcolor;
   cursor: pointer;
 }
 
@@ -115,7 +115,7 @@ $secondary-index-bgcolor: #A024D6; //purple; #29648a;//#0d19ff;    // or #5F4AD3
 .main-header__heading {
   color: $primary-fontcolor;
   font-family: $primary-fontstyle;
-  font-weight: 600;
+ 
   font-size: 120%;
 }
 
@@ -136,7 +136,7 @@ $secondary-index-bgcolor: #A024D6; //purple; #29648a;//#0d19ff;    // or #5F4AD3
   margin-bottom: 20px;
   padding: 20px;
   box-sizing: border-box;
-  color: $secondary-fontcolor;
+  color: $primary-fontcolor;
   font-family: $secondary-fontstyle; 
   font-size: 100%;
   margin: 10px 20px;
@@ -156,7 +156,7 @@ $secondary-index-bgcolor: #A024D6; //purple; #29648a;//#0d19ff;    // or #5F4AD3
 }
 
 .fa-github, .fa-linkedin-in, .fa-twitter {
-  color: $tertiary-fontcolor;
+  color: $secondary-fontcolor;
   padding-top: 5px;
   padding-right: 6px;
   padding-left: 6px;
@@ -167,7 +167,7 @@ $secondary-index-bgcolor: #A024D6; //purple; #29648a;//#0d19ff;    // or #5F4AD3
   padding-top: 3px;
   font-size: 75%;
   font-style: $secondary-fontstyle;
-  color: $tertiary-fontcolor;
+  color: $secondary-fontcolor;
 }
 
 // Cards Responsive Layout:

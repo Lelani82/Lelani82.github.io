@@ -18,19 +18,19 @@
 
 @-webkit-keyframes pulse {
   0%, 100% {
-    background-color: blue;
+    background-color: #0c3fe8;
   }
   50% {
-    background-color: #A024D6;
+    background-color: #800080;
   }
 }
 
 @keyframes pulse {
   0%, 100% {
-    background-color: blue;
+    background-color: #0c3fe8;
   }
   50% {
-    background-color: #A024D6;
+    background-color: #800080;
   }
 }
 
@@ -66,7 +66,7 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #028090;
+  background-color: #1979ff;
   color: #ddd;
   font-family: "Montserrat", sans-serif;
   padding: 12px 20px;
@@ -80,7 +80,7 @@ input[type=submit] {
 /* Style the container */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #e3e4e6;
   padding: 20px;
 }
 
@@ -117,7 +117,7 @@ input[type=submit] {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  border: 1px solid #028090;
+  border: 1px solid #1979ff;
 }
 
 #about-icons {
@@ -155,7 +155,7 @@ input[type=submit] {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: header;
-  background-color: #028090;
+  background-color: #1979ff;
   padding: 0 16px;
   position: fixed;
   height: 60px;
@@ -163,7 +163,6 @@ input[type=submit] {
   border-bottom: 1.5px solid white;
 }
 
-/* Style the navigation menu */
 .topnav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -173,7 +172,7 @@ input[type=submit] {
       -ms-flex-direction: column;
           flex-direction: column;
   grid-area: topnav;
-  background-color: #028090;
+  background-color: #1979ff;
   font-style: "Roboto", sans-serif;
   color: #ddd;
   position: absolute;
@@ -186,7 +185,6 @@ input[type=submit] {
   display: none;
 }
 
-/* Style navigation menu links */
 .topnav a {
   color: #ddd;
   padding: 14px 16px;
@@ -196,9 +194,8 @@ input[type=submit] {
   position: relative;
 }
 
-/* Style the hamburger menu */
 .topnav a.icon {
-  background: #028090;
+  background: #1979ff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -219,7 +216,7 @@ input[type=submit] {
 
 /* Add a background color on mouse-over */
 #myLinks :hover {
-  background-color: #028090;
+  background-color: #1979ff;
   color: #ddd;
   cursor: pointer;
 }
@@ -245,9 +242,8 @@ input[type=submit] {
 }
 
 .main-header__heading {
-  color: #464866;
+  color: black;
   font-family: "Roboto", sans-serif;
-  font-weight: 600;
   font-size: 120%;
 }
 
@@ -292,7 +288,7 @@ input[type=submit] {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: footer;
-  background-color: #028090;
+  background-color: #1979ff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

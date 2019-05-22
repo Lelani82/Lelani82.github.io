@@ -23,7 +23,7 @@ label {
 /* Style the submit button */
 input[type=submit] {
   background-color: $header-footer-bgcolor;
-  color: $tertiary-fontcolor;
+  color: $secondary-fontcolor;
   font-family: $secondary-fontstyle;
   padding: 12px 20px;
   margin: 20px 0 0 0;
@@ -36,7 +36,7 @@ input[type=submit] {
 /* Style the container */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: $secondary-bgcolor;
   padding: 20px;
 }
 
