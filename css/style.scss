@@ -1,13 +1,14 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
 
 $primary-bgcolor: #25274D;
 $secondary-bgcolor: #e3e4e6;
-$header-footer-bgcolor: #25274D;//#fffff0;//#648ca6;   // or #0ca1e8  
+$header-footer-bgcolor: #028090;//#fffff0;//#648ca6;   // or #0ca1e8  
 $main-header-bgcolor: #e3e4e6;
 $primary-fontcolor: #464866;
 $secondary-fontcolor:  black;
 $tertiary-fontcolor: #ddd;
-$primary-fontstyle: 'Merriweather', serif;
+$primary-fontstyle: 'Roboto', sans-serif;
 $secondary-fontstyle: 'Montserrat', sans-serif;
 // keyframe colours:
 $primary-index-bgcolor: blue;//#25274d;  // #1979ff;      // or #0000ff
@@ -37,6 +38,8 @@ $secondary-index-bgcolor: #A024D6; //purple; #29648a;//#0d19ff;    // or #5F4AD3
   position: fixed;
   height: 60px;
   width: 100%;
+  border-bottom: 1.5px solid white;
+  
 }
 
 // NavBar
@@ -52,7 +55,7 @@ $secondary-index-bgcolor: #A024D6; //purple; #29648a;//#0d19ff;    // or #5F4AD3
   position: absolute;
   margin-top: 50px;     
   margin-left: -20px; 
-
+  border-bottom-right-radius: 2%;
 }
 
 // /* Hide the links inside the navigation menu (except for logo/home) */   
@@ -141,12 +144,13 @@ $secondary-index-bgcolor: #A024D6; //purple; #29648a;//#0d19ff;    // or #5F4AD3
 // Footer
 .footer {
   grid-area: footer;
-  background-color: $header-footer-bgcolor;                  
+  background-color: $header-footer-bgcolor;          
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
+  border-top: 1.5px solid white;
 }
 
 .fa-github, .fa-linkedin-in, .fa-twitter {

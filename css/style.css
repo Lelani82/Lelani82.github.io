@@ -1,4 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap");
 #intro-main {
   width: 100%;
   height: 100%;
@@ -35,7 +36,7 @@
 
 #intro-message {
   color: #ddd;
-  font-size: 190%;
+  font-size: 130%;
   font-weight: 500;
   text-align: center;
   font-style: "Montserrat", sans-serif;
@@ -65,7 +66,7 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #25274D;
+  background-color: #028090;
   color: #ddd;
   font-family: "Montserrat", sans-serif;
   padding: 12px 20px;
@@ -127,11 +128,12 @@ input[type=submit] {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: header;
-  background-color: #25274D;
+  background-color: #028090;
   padding: 0 16px;
   position: fixed;
   height: 60px;
   width: 100%;
+  border-bottom: 1.5px solid white;
 }
 
 /* Style the navigation menu */
@@ -144,12 +146,13 @@ input[type=submit] {
       -ms-flex-direction: column;
           flex-direction: column;
   grid-area: topnav;
-  background-color: #25274D;
-  font-style: "Merriweather", serif;
+  background-color: #028090;
+  font-style: "Roboto", sans-serif;
   color: #ddd;
   position: absolute;
   margin-top: 50px;
   margin-left: -20px;
+  border-bottom-right-radius: 2%;
 }
 
 .topnav #myLinks {
@@ -168,7 +171,7 @@ input[type=submit] {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #25274D;
+  background: #028090;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -189,7 +192,7 @@ input[type=submit] {
 
 /* Add a background color on mouse-over */
 #myLinks :hover {
-  background-color: #25274D;
+  background-color: #028090;
   color: #ddd;
   cursor: pointer;
 }
@@ -216,7 +219,7 @@ input[type=submit] {
 
 .main-header__heading {
   color: #464866;
-  font-family: "Merriweather", serif;
+  font-family: "Roboto", sans-serif;
   font-size: 100%;
 }
 
@@ -261,7 +264,7 @@ input[type=submit] {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: footer;
-  background-color: #25274D;
+  background-color: #028090;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -276,6 +279,7 @@ input[type=submit] {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  border-top: 1.5px solid white;
 }
 
 .fa-github, .fa-linkedin-in, .fa-twitter {
