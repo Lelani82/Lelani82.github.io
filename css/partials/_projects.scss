@@ -1,3 +1,10 @@
 // #image-card {
 //     margin: 25%;
 // }
+
+#image-card img {
+    display: flex;
+    width: 100%;
+    padding: 1px;
+    border: 1px solid $header-footer-bgcolor;
+}

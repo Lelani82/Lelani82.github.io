@@ -112,6 +112,15 @@ input[type=submit] {
   }
 }
 
+#image-card img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 1px;
+  border: 1px solid #028090;
+}
+
 .grid-container {
   display: -ms-grid;
   display: grid;
@@ -286,8 +295,8 @@ input[type=submit] {
 .fa-github, .fa-linkedin-in, .fa-twitter {
   color: #ddd;
   padding-top: 5px;
-  padding-right: 7px;
-  padding-left: 7px;
+  padding-right: 6px;
+  padding-left: 6px;
   padding-bottom: 8px;
 }
 
