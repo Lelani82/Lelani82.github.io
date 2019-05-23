@@ -21,7 +21,7 @@
     background-color: #d90368;
   }
   50% {
-    background-color: #420039;
+    background-color: #25274d;
   }
 }
 
@@ -30,7 +30,7 @@
     background-color: #d90368;
   }
   50% {
-    background-color: #420039;
+    background-color: #25274d;
   }
 }
 
@@ -66,7 +66,7 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #0c3c60;
+  background-color: #1979ff;
   color: #ddd;
   font-family: "Montserrat", sans-serif;
   padding: 12px 20px;
@@ -117,7 +117,7 @@ input[type=submit] {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  border: 1px solid #0c3c60;
+  border: 1px solid #1979ff;
 }
 
 #about-icons {
@@ -155,7 +155,7 @@ input[type=submit] {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: header;
-  background-color: #0c3c60;
+  background-color: #1979ff;
   padding: 0 16px;
   position: fixed;
   height: 60px;
@@ -172,7 +172,7 @@ input[type=submit] {
       -ms-flex-direction: column;
           flex-direction: column;
   grid-area: topnav;
-  background-color: #0c3c60;
+  background-color: #1979ff;
   font-style: "Roboto", sans-serif;
   color: #ddd;
   position: absolute;
@@ -195,7 +195,7 @@ input[type=submit] {
 }
 
 .topnav a.icon {
-  background: #0c3c60;
+  background: #1979ff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -216,7 +216,7 @@ input[type=submit] {
 
 /* Add a background color on mouse-over */
 #myLinks :hover {
-  background-color: #0c3c60;
+  background-color: #1979ff;
   color: #ddd;
   cursor: pointer;
 }
@@ -225,7 +225,7 @@ input[type=submit] {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: main;
-  background-color: #420039;
+  background-color: #25274D;
 }
 
 .main-header {
@@ -288,7 +288,7 @@ input[type=submit] {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: footer;
-  background-color: #0c3c60;
+  background-color: #1979ff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
