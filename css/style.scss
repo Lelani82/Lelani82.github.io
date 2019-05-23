@@ -146,8 +146,12 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
 
 h4 {
   text-decoration: underline;
+  font-family: $secondary-fontstyle;
 }
 
+h5 {
+  font-family: $secondary-fontstyle;
+}
 // Footer
 .footer {
   grid-area: footer;
