@@ -138,9 +138,14 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
   box-sizing: border-box;
   color: $primary-fontcolor;
   font-family: $secondary-fontstyle; 
-  font-size: 100%;
+  font-size: 120%;
   margin: 10px 20px;
   height: 25%;
+  line-height: 150%;
+}
+
+h4 {
+  text-decoration: underline;
 }
 
 // Footer
