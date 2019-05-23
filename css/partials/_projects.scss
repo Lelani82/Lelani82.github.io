@@ -1,19 +1,55 @@
 #image-card img {
     display: flex;
     width: 100%;
-    border: 1px solid $primary-bgcolor;
 }
 
 #image-card {
-    max-width: 30%;
-}
-
-#terminal-app {
+    position: relative;
+    width: 35%;
+    padding: 0px;
     float: right;
-    padding: 3%;
 }
 
 figcaption {
-    display: block;
-}
+    position: absolute;
+    padding-left: 20px;
+    width: 200px;
+    height: auto;
+    bottom: 0px;
+    left: 0px;
+    color: #ffffff;
+    background: green;
+	text-align:center;
+	font-weight:bold;
+	opacity:0.7;
+    }
+
+// #terminal-app {
+//     float: right;
+//     padding: 3%;
+// }
+
+// .image-holder {
+//     display: inline-table;
+//     width: 1%;
+//     background: hotpink;
+//     padding: .5em;
+//     border: 1px solid #ccc;
+//     margin: 0 .5em;
+// }
+
+// .image-holder .img {
+//     display: flex;
+//     width: 100%;
+//     position: absolute;
+//     border: 1px solid #ccc;
+// }
+
+// .image-holder figcaption {
+//     background: red;
+//     opacity: 0.7;
+//     font-weight: bold;
+//     text-align: center;
+//     padding: 0 .5em;
+// }
 
