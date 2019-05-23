@@ -24,7 +24,7 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
 .grid-container {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 60px 1fr 65px;
+  grid-template-rows: 60px 1fr 75px;
   grid-template-areas:
     "header"
     "main"
@@ -70,7 +70,7 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
   color: $secondary-fontcolor;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 120%;
+  font-size: 130%;
   display: block;
   position: relative;
 }
@@ -158,14 +158,14 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
 .fa-github, .fa-linkedin-in, .fa-twitter {
   color: $secondary-fontcolor;
   padding-top: 5px;
-  padding-right: 6px;
-  padding-left: 6px;
+  padding-right: 11px;
+  padding-left: 11px;
   padding-bottom: 8px;
 }
 
 #footer_copyright {
   padding-top: 3px;
-  font-size: 75%;
+  font-size: 85%;
   font-style: $secondary-fontstyle;
   color: $secondary-fontcolor;
 }

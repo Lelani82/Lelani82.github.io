@@ -36,7 +36,7 @@
 
 #intro-message {
   color: #ddd;
-  font-size: 150%;
+  font-size: 160%;
   font-weight: 500;
   text-align: center;
   font-style: "Montserrat", sans-serif;
@@ -144,8 +144,8 @@ input[type=submit] {
   display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
-  -ms-grid-rows: 60px 1fr 65px;
-      grid-template-rows: 60px 1fr 65px;
+  -ms-grid-rows: 60px 1fr 75px;
+      grid-template-rows: 60px 1fr 75px;
       grid-template-areas: "header" "main" "footer";
   height: 100vh;
   min-width: 204px;
@@ -189,7 +189,7 @@ input[type=submit] {
   color: #ddd;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 120%;
+  font-size: 130%;
   display: block;
   position: relative;
 }
@@ -309,14 +309,14 @@ input[type=submit] {
 .fa-github, .fa-linkedin-in, .fa-twitter {
   color: #ddd;
   padding-top: 5px;
-  padding-right: 6px;
-  padding-left: 6px;
+  padding-right: 11px;
+  padding-left: 11px;
   padding-bottom: 8px;
 }
 
 #footer_copyright {
   padding-top: 3px;
-  font-size: 75%;
+  font-size: 85%;
   font-style: "Montserrat", sans-serif;
   color: #ddd;
 }
