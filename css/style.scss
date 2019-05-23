@@ -24,7 +24,7 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
 .grid-container {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 60px 1fr 75px;
+  grid-template-rows: 60px 1fr 85px;
   grid-template-areas:
     "header"
     "main"
@@ -162,7 +162,7 @@ h4 {
 
 .fa-github, .fa-linkedin-in, .fa-twitter {
   color: $secondary-fontcolor;
-  padding-top: 5px;
+  padding-top: 10px;
   padding-right: 22px;
   padding-left: 22px;
   padding-bottom: 8px;
