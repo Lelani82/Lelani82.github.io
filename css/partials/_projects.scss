@@ -1,6 +1,19 @@
 #image-card img {
     display: flex;
     width: 100%;
-    border: 1px solid $header-footer-bgcolor;
+    border: 1px solid $primary-bgcolor;
+}
+
+#image-card {
+    max-width: 30%;
+}
+
+#terminal-app {
+    float: right;
+    padding: 3%;
+}
+
+figcaption {
+    display: block;
 }
 

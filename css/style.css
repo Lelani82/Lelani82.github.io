@@ -41,6 +41,8 @@
   text-align: center;
   font-style: "Montserrat", sans-serif;
   letter-spacing: 1.5px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #contact-form {
@@ -118,7 +120,20 @@ input[type=submit] {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  border: 1px solid #1979ff;
+  border: 1px solid #25274D;
+}
+
+#image-card {
+  max-width: 30%;
+}
+
+#terminal-app {
+  float: right;
+  padding: 3%;
+}
+
+figcaption {
+  display: block;
 }
 
 #about-icons {
