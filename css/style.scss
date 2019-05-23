@@ -108,20 +108,20 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
   justify-content: space-evenly;
   margin: 20px;
   padding: 20px;
-  height: 20px;
+  height: 30px;
   background-color: $main-header-bgcolor;
 }
 
 .main-header__heading {
   color: $primary-fontcolor;
   font-family: $primary-fontstyle;
- 
-  font-size: 120%;
+  font-size: 180%;
+  letter-spacing: 2px;
 }
 
 .main-cards {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;       // change to row and re-instate media queries at bottom for alt layout
   align-items: center;
   justify-content: center;
   align-content: center;
@@ -175,12 +175,12 @@ h4 {
   color: $secondary-fontcolor;
 }
 
-// Cards Responsive Layout:
-@media screen and (max-width: 600px) {
-  .main-cards {
-    flex-direction: column; 
-  }
-  .main-cards>* {
-    width: 100%;
-  }
-}
+// // Cards Responsive Layout:
+// @media screen and (max-width: 600px) {
+//   .main-cards {
+//     flex-direction: column; 
+//   }
+//   .main-cards>* {
+//     width: 100%;
+//   }
+// }

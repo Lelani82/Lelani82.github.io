@@ -40,6 +40,7 @@
   font-weight: 500;
   text-align: center;
   font-style: "Montserrat", sans-serif;
+  letter-spacing: 1.5px;
 }
 
 #contact-form {
@@ -132,10 +133,10 @@ input[type=submit] {
 }
 
 #about-icons i {
-  padding-right: 15px;
+  padding-right: 20px;
   padding-bottom: 10px;
   padding-top: 5px;
-  padding-left: 15px;
+  padding-left: 20px;
   color: black;
 }
 
@@ -237,24 +238,25 @@ input[type=submit] {
           justify-content: space-evenly;
   margin: 20px;
   padding: 20px;
-  height: 20px;
+  height: 30px;
   background-color: #e3e4e6;
 }
 
 .main-header__heading {
   color: black;
   font-family: "Roboto", sans-serif;
-  font-size: 120%;
+  font-size: 180%;
+  letter-spacing: 2px;
 }
 
 .main-cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -324,17 +326,5 @@ h4 {
   font-size: 85%;
   font-style: "Montserrat", sans-serif;
   color: #ddd;
-}
-
-@media screen and (max-width: 600px) {
-  .main-cards {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .main-cards > * {
-    width: 100%;
-  }
 }
 /*# sourceMappingURL=style.css.map */
