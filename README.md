@@ -37,11 +37,25 @@ I have included the following in my portfolio website:
 
 ### Sitemap
 
-![sitemap](docs/1-sitemap.png "sitemap")
-   ###Screenshots 
+Here's a sitemap of my website:
 
-   ###Target audience 
-   Potential futer employers or clients
+![sitemap](docs/1-sitemap.png "sitemap")
+
+
+### Screenshots of Site: 
+
+This is my 'Home' page:
+
+This is my 'About' page:
+
+This is my 'Projects' page:
+
+This is my 'Contact' page:
+
+### Target audience :
+
+My target audience would be anyone I wish to show my portfolio to. I can use it to showcase my current skills and abilities as well as any past projects I have completed. This would include any potential future employers and even clients, if I chose to do freelancing.
+
    ###Tech stack (e.g. html, css, deployment platform, etc) 
    HTML
    SASS (CSS)
