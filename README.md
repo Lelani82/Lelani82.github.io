@@ -16,11 +16,9 @@ _________________
 
 ## A Description of my Portfolio Website
 
-
 ### The Purpose of my Portfolio Website
 
 The purpose of my portfolio website is to showcase my current skills to both future employers and clients. It is also a great platform to share a bit about myself and my coding journey.
-
 
 ### My Websites Functionality / Features 
 
@@ -34,13 +32,11 @@ I have included the following in my portfolio website:
 
 ● A 'Contact' page which has a form for anyone who would like to contact me.
 
-
 ### My Websites Sitemap
 
 Here's a sitemap of my website:
 
 ![sitemap](docs/1-sitemap.png "sitemap")
-
 
 ### Screenshots of My Website 
 
@@ -68,8 +64,10 @@ As per W3C recommendations, I used CSS3 for the styling of my web pages.
 
 ● SASS (Syntactically Awesome Style Sheet)
 
-I used Sass, an extension of CSS, to create my style sheets. I found it extremly helpful and noticed how much quicker I was able to create, edit and test all of my code.<br>
-I was able to use variables which sped up the process of changing fonts and colours. I found having an understanding of Ruby definitely helped with understanding how variables are created and implemented.<br>
+I used Sass, an extension of CSS, to create my style sheets. I found it extremly helpful and noticed how much quicker I was able to create, edit and test all of my code.
+
+I was able to use variables which sped up the process of changing fonts and colours. I found having an understanding of Ruby definitely helped with understanding how variables are created and implemented.
+
 I used modularisation to seperate my files. This helped to keep my code organised and DRY. 
 
 ● GITHUB (Github Deployment)
@@ -79,33 +77,57 @@ I chose to use GitHub Pages to deploy my site. I found it helpful that I was abl
 ● JS (JavaScript) 
 
 I only used a small bit of JavaScript in my website. It was to create a function for the hamburger menu. The function allows the user to toggle between showing and hiding the drop-down menu links whenever it is clicked on. I put the JavaScript code in its own file and linked it at the bottom of each of my HTML pages.
-
 __________________________________
 ## My Design Documentation
 
-
 ### The Design Process
-I designed my website using a responsive, mobile first design. This made me realise that it would be better to create a grid-container for each page and to use flexbox for each of the inner divs. Once my entire mobile site was completed, I was then able to focus on my Media Queries for larger screens.
 
-### My Websites Mood Board
+Stages to my design:
 
-![home-page-wireframes](docs/2-Home-Wireframes.png "home-page-wireframes")
+(1) Created a Timeline, Trello Board and Git Repo.
 
-Colours selected blues, purples
-Opted for a darker, more sophisticated and professional tone
-Typography - selected Merriweather as main font type and Montserrat
- as secondary font
+(2) Created my Mood Board, Wireframes and Sitemap.
+
+(3) Created my first responsive page. I used a mobile first design. I chose to create templates and used dummy text to get my layout done first and then I could focus on my content at the end. To allow my pages to be responsive, I used a grid-container on each page and a flexbox for each of their inner divs. 
+
+(4) Styled my first page and tested it with Chromes Dev Tools.
+
+(5) Once I was happy I depolyed my site to see how it looked on my mobile (real-life).
+
+(6) I then used my first page template to created the rest of the pages. I created them one by one, making any necessary changes as I went along.
+
+(7) After all my pages were created and styled, I focused on my media queries for larger screens. I tested them with Chromes Dev Tools. I depolyed them to see how they looked on my desktop screen at home (real-life)
+
+(8) I adjusted my colours, font styles and sizes and icon sizes until I was happy. Re-deploying and testing as I went along.
+
+(9) I then wrote my content, page by page and put it through the Hemmingway Editor. I compressed my image and uploaded it. Testing and re-deploying as I went along.
+
+(10) I made a few minor adjustments with any layout issues I had. Once again I tested and redployed as I went along.
+
+(11) Once I was finally happy with everything, I re-did my HTML validation online. I also did a Lighthouse audit using Chrome's Dev Tools. I checked my site on different browsers and on different screen sizes. I used a screen reader to listen to my site as well.
+
+### My Mood Board
+
+I knew I wanted to avoid reds and greens on my site as it can be an issue for colour-blind people. After doing a bit of research, I opted to go with blue as it portrays a meaning of trust, loyalty, openness and calmness. This is definitly the feeling I wanted for on my site. I also ended up using purple as a secondary colour. For my Home page I went for a dark background with light font to give a more sophisticated and proffessional look.
+
+I chose Merriweather as main font type and Montserrat as secondary font
+
+![moodboard](docs/4-moodboard.png "moodboard")
+ 
+Design Changes:
+I ended up adding pink into my colour scheme as the dark blue and purple were too close in colour, and it made it difficult to see the changing keyframes on my Home page.
+
+I also ended up changing my main font from Merriweather to Roboto as it had a better look.
 
 ### My Websites Wireframes
  
-● Home Page Wireframes:
+● Home Page Wireframes (mobile and desktop):
 
 ![home-page-wireframes](docs/2-Home-Wireframes.png "home-page-wireframes")
 
-● Projects Page Wireframes:
+● Projects Page Wireframes (mobile and desktop):
 
-![projects-page-wireframes](docs/3-Projects-Wireframes.png "projects-page-wireframes"))
-
+![projects-page-wireframes](docs/3-Projects-Wireframes.png "projects-page-wireframes")
 
 ### Usability Considerations for My Website  
 
@@ -122,28 +144,41 @@ Typography - selected Merriweather as main font type and Montserrat
 ● Multi browser & devices(screens) Considerations:
 
 ● Screen readers Considerations: - used alt on images. used otranscribe/ windows narrator/ mac voiceover
- 
-______________--______--
-## Design Process:
-##Trello
+________________________
+## My Design Process:
+
+### Created a Timeline
+My first step in my design process was to create a timeline so that I could break up my avaiable days and dedicate different tasks to each day. This is how I initially broke it up:
+
+● All project management - one day
+
+● All design aspects - one day
+
+● Build each webpage - one day to build and style each page of my site
+
+● Testing webpages - four days to test and updating webpages
+
+● Create my Powerpoint presentation - one day
+
+● Spell check - one day
+
+● Friday - Prefered completion date - one day to do the README, do a final spelling check and finalize everything else
+
+● Saturday - An extra day just in case
+
+![timeline](docs/5-Timeline.png "timeline")
+
+Timeline Changes:
+
+Originally wanted to do one page per day and test from there. I quickly found out that this was not the most efficient way because my first page took me the longest to build and style. I focused on creating a responsive mobile template for my first page and used dummy text. I deployed and tested my first page and made any necessary changes until I was happy with the look and layout. I was then able to copy my first page and use it as a template for my other pages. I then added my media queries and tested my site on a larger screen. Only then did I focus on adding all the content.
+
+### Trello Board
 Broke up tasks into Trello board with time estimates (update daily with README)
-## Timeline
-Did a timeline to break up my days and dedicate different tasks to days.
-Project management - one day
-Design - one day
-Each Webpage - one day for each to build, design, test
-Powerpoint Presentation - one day
-Spell Check - one day
-Friday - Completion date - finalize everything including README
-Extra Day in case
-
-Originally wanted to do 1 page per day and test from there but ended up doing all mobile template layouts first, testing and then moving onto media queries & larger screens - way better ->
-My original design was to build, test and create media queries for one page per day. I soon realised that it would be better to rather focus on creating template layouts for each page first. After I knew roughly what was going onto each page, I was able to focus on building my first page and test it. Once my first page was built it was really quick to create the next pages
 
 
 
-## Wireframes
-Compeleted wireframes. 1 for home for mobile and desktop. 1 for projects for mobile and desktop.
+
+
 
 ## Usability considerations
 Dark background with lighter text, easier on the eyes
