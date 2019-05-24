@@ -37,7 +37,7 @@ I have included the following in my portfolio website:
 
 ### Sitemap
 
-![apps-future-enhancements](docs/12-trello-future-enhancements.png "apps-future-enhancements-trello")
+![sitemap](docs/1-sitemap.png "sitemap")
    ###Screenshots 
 
    ###Target audience 
