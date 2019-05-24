@@ -140,7 +140,6 @@ input[type=submit] {
 }
 
 figcaption {
-  position: absolute;
   font-size: 50%;
   text-align: center;
   bottom: 0;
@@ -163,6 +162,7 @@ figcaption {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 2px;
+  padding-bottom: 15px;
 }
 
 #about-icons i {
