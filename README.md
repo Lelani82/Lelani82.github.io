@@ -1,21 +1,43 @@
-# portfolio
+# Website-Portfolio-Assessment
+
+## A Link to my Published Portfolio Website
+Here's the link to my published protfolio website:
+
+https://lelani82.github.io/index.html
+
+__________________
+
+## A Link to my GitHub Repository
+Here's the link to my GitHub repository:
+
+https://github.com/Lelani82/Lelani82.github.io
+
+_________________
+
+## A Description of my Portfolio Website
 
 
-"Project documentation is to be compiled as a single markdown file named README.md
-This file should contain,
+### The Purpose of my Portfolio Website
 
-A link (URL) to your published portfolio website 
+The purpose of my portfolio website is to showcase my current skills to both future employers and clients. It is also a great platform to share a bit about myself and my coding journey.
 
 
-A link to your GitHub repository (Ensure the repository (repo) is accessible by your Educators)
-Description of your portfolio website, including, 
-   Purpose 
-   ### Purpose
-   To showcase our portfolio to potential futer employers or clients
-   ### Functionality / features 
+### Functionality / features 
 
-   ### Sitemap
-   
+I have included the following in my portfolio website:
+
+● Links to my GitHub, Twitter and LinkedIn profiles (These are accessible from the footer on every page).
+
+● An 'About' page which is all about my current studies at Coder Academy as well as the Tech Stacks I have learnt so far. I have also included any relevant past experience and qualifications and a list of all the workshops I have attended.  
+
+● A 'Projects' page which has some information on our Ruby Terminal App Assessment. I have included a photo and a link to my GitHub Repo.
+
+● A 'Contact' page which has a form for anyone who would like to contact me.
+
+
+### Sitemap
+
+![apps-future-enhancements](docs/12-trello-future-enhancements.png "apps-future-enhancements-trello")
    ###Screenshots 
 
    ###Target audience 
@@ -24,6 +46,8 @@ Description of your portfolio website, including,
    HTML
    SASS (CSS)
    JS
+
+__________________________________
 
 Design documentation including, 
    Design process 
