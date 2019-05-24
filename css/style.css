@@ -35,14 +35,18 @@
 }
 
 #intro-message {
-  color: #ddd;
-  font-size: 160%;
-  font-weight: 500;
   text-align: center;
-  font-style: "Montserrat", sans-serif;
-  letter-spacing: 1.5px;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+h1 {
+  color: #ddd;
+  font-style: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 50%;
+  font-size: 150%;
+  line-height: 190%;
 }
 
 #contact-form {
