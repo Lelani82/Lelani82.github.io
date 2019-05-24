@@ -1,3 +1,9 @@
+// Reset CSS
+* {
+  margin: 0;
+  padding: 0;
+}
+
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
 
@@ -137,11 +143,15 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
   padding: 20px;
   box-sizing: border-box;
   color: $primary-fontcolor;
-  font-family: $secondary-fontstyle; 
+  font-family: $secondary-fontstyle;
   font-size: 120%;
   margin: 10px 20px;
   height: 25%;
   line-height: 150%;
+}
+
+.card p {
+  padding-top: 25px;
 }
 
 h4 {
@@ -151,6 +161,7 @@ h4 {
 
 h5 {
   font-family: $secondary-fontstyle;
+  padding-top: 25px;
 }
 // Footer
 .footer {

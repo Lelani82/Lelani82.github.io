@@ -1,5 +1,10 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #intro-main {
   width: 100%;
   height: 100%;
@@ -43,9 +48,8 @@
 h1 {
   color: #ddd;
   font-style: "Montserrat", sans-serif;
-  font-weight: bold;
   letter-spacing: 50%;
-  font-size: 150%;
+  font-size: 160%;
   line-height: 190%;
 }
 
@@ -167,6 +171,11 @@ figcaption {
   padding-top: 5px;
   padding-left: 20px;
   color: black;
+}
+
+ul {
+  padding-top: 25px;
+  padding-left: 15px;
 }
 
 .grid-container {
@@ -317,6 +326,10 @@ figcaption {
   line-height: 150%;
 }
 
+.card p {
+  padding-top: 25px;
+}
+
 h4 {
   text-decoration: underline;
   font-family: "Montserrat", sans-serif;
@@ -324,6 +337,7 @@ h4 {
 
 h5 {
   font-family: "Montserrat", sans-serif;
+  padding-top: 25px;
 }
 
 .footer {
