@@ -135,16 +135,18 @@ I also ended up changing my main font from Merriweather to Roboto as it had a be
 
 ● Simple language Considerations: - used Hemingway Editor
 
-● Bigger Font, buttons & icons Considerations:
+● Bigger Font, easier to read Considerations:
 
-● One topice per page Considerations:
+● Mobile - Bigger Font, buttons & icons. Easy navigation - less is more Considerations:
+
+● One topice per page to help search engine optimusation Considerations:
 
 ● Quick load time Considerations: compressed images - used chromes Lighthouse auditing tool
 
 ● Multi browser & devices(screens) Considerations:
 
 ● Screen readers Considerations: - used alt on images. used otranscribe/ windows narrator/ mac voiceover
-________________________
+_______________________
 ## My Design Process:
 
 ### Created a Timeline
@@ -173,25 +175,17 @@ Timeline Changes:
 Originally wanted to do one page per day and test from there. I quickly found out that this was not the most efficient way because my first page took me the longest to build and style. I focused on creating a responsive mobile template for my first page and used dummy text. I deployed and tested my first page and made any necessary changes until I was happy with the look and layout. I was then able to copy my first page and use it as a template for my other pages. I then added my media queries and tested my site on a larger screen. Only then did I focus on adding all the content.
 
 ### Trello Board
-Broke up tasks into Trello board with time estimates (update daily with README)
+
+First I broke up all my tasks with time estimates. I then added specific details to each task. As I completed tasks I updated my Trello Board. I found the Trello Board really handy for adding in reminders which popped up as I was working through the project. It was great to be able to refer back and see if I'd done everything I was suppose to.
+
+Screenshots of my Trello Board:
 
 
 
 
 
-
-## Usability considerations
-Dark background with lighter text, easier on the eyes
-Font type easy to read
-Include alt for images for screenreaders
-Easy navigation for mobile - less is more
-1 topic per page to help search engine optimusation
-
-Details of planning process including, 
-   Project plan & timeline 
-   Screenshots of Trello board(s)
-
-Short Answer Q&A 
+________________________
+## Short Answer Q&A 
  - Include short answers to the following questions, 
    Describe key events in the development of the internet from the 1980s to today (max. 150 words) 
    Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words) 
