@@ -178,13 +178,6 @@ ul {
   padding-left: 15px;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .grid-container {
   display: -ms-grid;
   display: grid;
@@ -365,7 +358,9 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
   border-top: 1.5px solid white;
+  overflow: auto;
 }
 
 .fa-github, .fa-linkedin-in, .fa-twitter {

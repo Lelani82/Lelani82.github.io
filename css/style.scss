@@ -27,11 +27,11 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
 @import "partials/projects";
 @import "partials/about";
 
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+// body {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+// }
 
 .grid-container {
   display: grid;
@@ -177,8 +177,9 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // position: relative;
+  position: relative;
   border-top: 1.5px solid white;
+  overflow: auto;
 }
 
 .fa-github, .fa-linkedin-in, .fa-twitter {
