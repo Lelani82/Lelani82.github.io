@@ -282,10 +282,21 @@ First I broke up all my tasks with time estimates. I then added specific details
 
 Screenshots of my Trello Board:
 
+● Day 1:
 
+![trello screenshot day 1](docs/20-TrelloDay1.png "trello screenshot day 1")
 
+● Day 7:
 
+![trello screenshot day 7](docs/21-TrelloDay7.png "trello screenshot day 7")
 
+● Day 12:
+
+![trello screenshot day 12](docs/22-TrelloDay12.png "trello screenshot day 12")
+
+● Day 1:
+
+![trello screenshot day 13](docs/23-TrelloDay13.png "trello screenshot day 13")
 ________________________
 ## Short Answer Q&A 
  - Include short answers to the following questions, 
