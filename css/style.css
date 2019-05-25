@@ -123,10 +123,6 @@ input[type=submit] {
   }
 }
 
-#projects p {
-  padding: 25px 20px 20px 0;
-}
-
 #image-card img {
   display: block;
   width: 100%;
@@ -140,6 +136,7 @@ input[type=submit] {
   float: right;
   margin-right: 2.5%;
   max-width: 495px;
+  height: auto;
 }
 
 figcaption {
