@@ -1,5 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
-@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -214,7 +214,7 @@ ul {
           flex-direction: column;
   grid-area: topnav;
   background-color: #1979ff;
-  font-style: "Roboto", sans-serif;
+  font-style: "Merriweather", serif;
   color: #ddd;
   position: absolute;
   margin-top: 50px;
@@ -283,7 +283,7 @@ ul {
 
 .main-header_heading h1 {
   color: black;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merriweather", serif;
   font-size: 160%;
   letter-spacing: 2px;
   font-weight: 200;

@@ -42,11 +42,19 @@ Here's a sitemap of my website:
 
 This is my 'Home' page:
 
+![index page](docs/6-index.png "index page")
+
 This is my 'About' page:
+
+![about page](docs/7-about.png "about page")
 
 This is my 'Projects' page:
 
+![projects page](docs/8-projects.png "projects page")
+
 This is my 'Contact' page:
+
+![contact page](docs/9-contact.png "contact page")
 
 ### My Websites Target Audience
 

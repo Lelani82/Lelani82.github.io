@@ -5,7 +5,7 @@
 }
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap');
 
 // Background colours:
 $primary-bgcolor: #25274D;
@@ -13,13 +13,13 @@ $secondary-bgcolor: #e3e4e6;
 $header-footer-bgcolor: #1979ff;
 $main-header-bgcolor: #e3e4e6;
 // keyframe colours:
-$primary-index-bgcolor: #d90368; //0c3fe8;
-$secondary-index-bgcolor: #25274d; //800080; 
+$primary-index-bgcolor: #d90368;
+$secondary-index-bgcolor: #25274d;
 // Font colours:
 $primary-fontcolor: black;
 $secondary-fontcolor:  #ddd;
 // Font styles:
-$primary-fontstyle: 'Roboto', sans-serif;
+$primary-fontstyle: 'Merriweather', serif; 
 $secondary-fontstyle: 'Montserrat', sans-serif;
 
 @import "partials/index";
