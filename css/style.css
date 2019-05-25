@@ -282,7 +282,7 @@ ul {
   background-color: #e3e4e6;
 }
 
-.main-header__heading {
+.main-header__heading h1 {
   color: black;
   font-family: "Roboto", sans-serif;
   font-size: 160%;
