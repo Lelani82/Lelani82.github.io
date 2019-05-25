@@ -86,6 +86,7 @@ I chose to use GitHub Pages to deploy my site. I found it helpful that I was abl
 
 I only used a small bit of JavaScript in my website. It was to create a function for the hamburger menu. The function allows the user to toggle between showing and hiding the drop-down menu links whenever it is clicked on. I put the JavaScript code in its own file and linked it at the bottom of each of my HTML pages.
 __________________________________
+
 ## My Design Documentation
 
 ### The Design Process
@@ -123,9 +124,7 @@ I chose Merriweather as main font type and Montserrat as secondary font
 ![moodboard](docs/4-moodboard.png "moodboard")
  
 Design Changes:
-I ended up adding pink into my colour scheme as the dark blue and purple were too close in colour, and it made it difficult to see the changing keyframes on my Home page.
-
-I also ended up changing my main font from Merriweather to Roboto as it had a better look.
+I ended up adding a bit more pink into my colour scheme as the dark blue and purple were too close in colour, and it made it difficult to see the changing keyframes on my Home page.
 
 ### My Websites Wireframes
  
@@ -139,22 +138,39 @@ I also ended up changing my main font from Merriweather to Roboto as it had a be
 
 ### Usability Considerations for My Website  
 
-● Colour Considerations: - used webaim contrast checker
+● Colour Considerations:
 
-● Simple language Considerations: - used Hemingway Editor
+I avoided reds and greens and also used http://www.checkmycolours.com to check my colour contrasts online.
 
-● Bigger Font, easier to read Considerations:
+● Simple Language Considerations: 
 
-● Mobile - Bigger Font, buttons & icons. Easy navigation - less is more Considerations:
+I used the Hemingway Editor (http://www.hemingwayapp.com) to keep my sentences short and used easy to understand language.
 
-● One topice per page to help search engine optimusation Considerations:
+● Larger Font Considerations:
 
-● Quick load time Considerations: compressed images - used chromes Lighthouse auditing tool
+I choose to use larger font sizes as I find it easier to read, especially on smaller mobile screens.
 
-● Multi browser & devices(screens) Considerations:
+● Mobile Navigation Considerations:
 
-● Screen readers Considerations: - used alt on images. used otranscribe/ windows narrator/ mac voiceover
+I choose to use bigger buttons and icons for easier navigation on small mobile screens. 
+
+● Search Engine Optimisation Considerations:
+
+I kept to one topic per page which helps with Search Engine Optimisation. I also felt that it helps keep the content uncluttered.
+
+● Quick Load Time Considerations: 
+
+I compressed my image to speed up loading time.
+
+● Multi Browser & Device onsiderations:
+
+I tested my site on a variety of browsers and devices.
+
+● Screen Readers Considerations: 
+
+I used the alt attribute on my image to help with screen readers. I also added title attributes on all of my icon and navigation links. I tested my site with Natural Reader Text To Speech Chrome extension. 
 _____________
+
 ## Site Testing
 
 ### Multi Screen and Browser Compatibility Testing:
@@ -181,7 +197,52 @@ Mobile (IPhone 5 and 7) :
 
 ● Chrome Browser
 
-### Multi Screen and Browser Compatibility Testing:
+### HTML Validation:
+
+I used the WC3 Online HTML Validation checker. Here are my screenshots:
+
+● Index page validation:
+
+![html index page validation](docs/10-index-validation.png "html index page validation")
+
+● About page validation:
+
+![html about page validation](docs/11-about-validation.png "html about page validation")
+
+● Projects page validation:
+
+![html projects page validation](docs/12-projects-validation.png "html projects page validation")
+
+● Contact page validation:
+
+![html contact page validation](docs/13-contact-validation.png "html contact page validation")
+
+### Wave Web Accessibility Evaluation Tool:
+
+I used the Wave Web Accessibility Evaluation Tool to test my sites pages. Here are my screenshots:
+
+● Index page evaluation:
+
+![wave index page evaluation](docs/14-index-wave.png "wave index page evaluation")
+
+● About page evaluation:
+
+![wave about page evaluation](docs/15-about-wave.png "wave about page evaluation")
+
+● Projects page evaluation:
+
+![wave projects page evaluation](docs/16-projects-wave.png "wave projects page evaluation")
+
+● Contact page evaluation:
+
+![wave contact page evaluation](docs/17-contact-wave.png "wave contact page evaluation")
+
+### Chromes Lighthouse Auditing Tool:
+
+I used Chrome's Lighthouse Auditing tool to test my sites pages. Here is the screenshot:
+
+![lighthouse auditing evaluation](docs/18-lighthouse-audit.png "lighthouse auditing evaluation")
+
 
 _______________________
 ## My Design Process:
