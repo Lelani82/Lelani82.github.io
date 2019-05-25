@@ -360,6 +360,8 @@ h5 {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  margin: 0;
+  width: 100%;
   border-top: 1.5px solid white;
 }
 
