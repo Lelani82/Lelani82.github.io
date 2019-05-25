@@ -120,15 +120,16 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
   justify-content: space-evenly;
   margin: 20px;
   padding: 20px;
-  height: 30px;
+  // height: 30px;
   background-color: $main-header-bgcolor;
 }
 
-.main-header__heading h1 {
+.main-header_heading h1 {
   color: $primary-fontcolor;
   font-family: $primary-fontstyle;
   font-size: 160%;
   letter-spacing: 2px;
+  font-weight: 200;
 }
 
 .main-cards {
@@ -160,14 +161,18 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
   padding-top: 25px;
 }
 
-h4 {
+h2 {
   text-decoration: underline;
   font-family: $secondary-fontstyle;
+  font-size: 110%;
+  font-weight: 600;
 }
 
-h5 {
+h3 {
   font-family: $secondary-fontstyle;
   padding-top: 25px;
+  font-size: 100%;
+  font-weight: 600;
 }
 // Footer
 .footer {
