@@ -123,8 +123,8 @@ input[type=submit] {
   }
 }
 
-#projects {
-  margin: 0;
+#projects p {
+  padding: 25px 20px 20px 0;
 }
 
 #image-card img {
