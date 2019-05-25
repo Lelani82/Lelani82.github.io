@@ -27,12 +27,6 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
 @import "partials/projects";
 @import "partials/about";
 
-// body {
-//   margin: 0;
-//   padding: 0;
-//   box-sizing: border-box;
-// }
-
 .grid-container {
   display: grid;
   grid-template-columns: 100%;
@@ -173,6 +167,7 @@ h3 {
   font-size: 100%;
   font-weight: 600;
 }
+
 // Footer
 .footer {
   grid-area: footer;
@@ -184,10 +179,8 @@ h3 {
   position: relative;
   border-top: 1.5px solid white;
   overflow: auto;
-  // clear: both;
   width: 100%;
   left: 0;
-  // margin: auto;
 }
 
 .fa-github, .fa-linkedin-in, .fa-twitter {
