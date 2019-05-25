@@ -123,6 +123,10 @@ input[type=submit] {
   }
 }
 
+#projects {
+  margin: 0;
+}
+
 #image-card img {
   display: block;
   width: 100%;
@@ -134,7 +138,6 @@ input[type=submit] {
   width: 95%;
   padding: 1px;
   float: right;
-  background-color: black;
   margin-right: 2.5%;
   max-width: 495px;
 }
