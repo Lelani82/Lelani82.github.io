@@ -141,7 +141,7 @@ input[type=submit] {
 }
 
 figcaption {
-  font-size: 50%;
+  font-size: 60%;
   text-align: center;
   bottom: 0;
   right: 0;
@@ -150,7 +150,7 @@ figcaption {
   background: #1979ff;
   text-align: center;
   font-weight: bold;
-  opacity: 0.7;
+  opacity: 0.9;
   max-height: 30px;
 }
 
