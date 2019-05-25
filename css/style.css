@@ -78,7 +78,7 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #1979ff;
+  background-color: #021f90;
   color: #ddd;
   font-family: "Montserrat", sans-serif;
   padding: 12px 20px;
@@ -147,7 +147,7 @@ figcaption {
   right: 0;
   left: 0;
   color: #ffffff;
-  background: #1979ff;
+  background: #021f90;
   text-align: center;
   font-weight: bold;
   opacity: 0.7;
@@ -195,7 +195,7 @@ ul {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: header;
-  background-color: #1979ff;
+  background-color: #021f90;
   padding: 0 16px;
   position: fixed;
   height: 60px;
@@ -213,7 +213,7 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   grid-area: topnav;
-  background-color: #1979ff;
+  background-color: #021f90;
   font-style: "Roboto", sans-serif;
   color: #ddd;
   position: absolute;
@@ -236,7 +236,7 @@ ul {
 }
 
 .topnav a.icon {
-  background: #1979ff;
+  background: #021f90;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -257,7 +257,7 @@ ul {
 
 /* Add a background color on mouse-over */
 #myLinks :hover {
-  background-color: #1979ff;
+  background-color: #021f90;
   color: #ddd;
   cursor: pointer;
 }
@@ -345,7 +345,7 @@ h5 {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: footer;
-  background-color: #1979ff;
+  background-color: #021f90;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
