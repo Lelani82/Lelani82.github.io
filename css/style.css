@@ -46,9 +46,11 @@
 }
 
 h1 {
+  font-size: 140%;
+  letter-spacing: 2px;
   color: #ddd;
   font-family: "Montserrat", sans-serif;
-  font-size: 140%;
+  font-weight: 200;
   line-height: 200%;
 }
 
@@ -283,7 +285,7 @@ ul {
 .main-header__heading {
   color: black;
   font-family: "Roboto", sans-serif;
-  font-size: 180%;
+  font-size: 160%;
   letter-spacing: 2px;
 }
 

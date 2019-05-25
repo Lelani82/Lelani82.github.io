@@ -24,10 +24,13 @@
 }
 
 h1 {
+  // font-family: $primary-fontstyle;
+  font-size: 140%;
+  letter-spacing: 2px;
   color: $secondary-fontcolor;
   font-family: $secondary-fontstyle;
-  // font-weight: bold;
+  font-weight: 200;
   // letter-spacing: 30%;
-  font-size: 140%;
+  // font-size: 140%;
   line-height: 200%;
 }
