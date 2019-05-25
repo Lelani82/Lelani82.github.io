@@ -82,7 +82,7 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
   color: $secondary-fontcolor;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 130%;
+  font-size: 140%;
   display: block;
   position: relative;
 }
@@ -119,8 +119,7 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
   display: flex;
   justify-content: space-evenly;
   margin: 20px;
-  padding: 20px;
-  // height: 30px;
+  padding: 5px;
   background-color: $main-header-bgcolor;
 }
 
