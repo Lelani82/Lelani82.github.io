@@ -153,14 +153,6 @@ figcaption {
   max-height: 30px;
 }
 
-#about-me {
-  height: 965px;
-}
-
-#relevant-experience {
-  height: 1143px;
-}
-
 #about-icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -169,11 +161,13 @@ figcaption {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 154px;
+  padding: 2px;
+  padding-bottom: 15px;
 }
 
 #about-icons i {
   padding-right: 20px;
+  padding-bottom: 10px;
   padding-top: 5px;
   padding-left: 20px;
   color: black;
