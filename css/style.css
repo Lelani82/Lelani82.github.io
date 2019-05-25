@@ -46,11 +46,11 @@
 }
 
 #intro-message h1 {
-  font-size: 140%;
+  font-size: 145%;
   letter-spacing: 2px;
   color: #ddd;
   font-family: "Montserrat", sans-serif;
-  font-weight: 200;
+  font-weight: 600;
   line-height: 200%;
 }
 
@@ -383,5 +383,6 @@ h3 {
   font-size: 85%;
   font-style: "Montserrat", sans-serif;
   color: #ddd;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */
