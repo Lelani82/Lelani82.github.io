@@ -41,16 +41,15 @@
 
 #intro-message {
   text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 h1 {
   color: #ddd;
-  font-style: "Montserrat", sans-serif;
-  letter-spacing: 50%;
-  font-size: 160%;
-  line-height: 190%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 140%;
+  line-height: 200%;
 }
 
 #contact-form {
