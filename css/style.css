@@ -361,6 +361,10 @@ h5 {
   position: relative;
   border-top: 1.5px solid white;
   overflow: auto;
+  margin: 0 auto;
+  bottom: 0;
+  width: 100%;
+  left: 0;
 }
 
 .fa-github, .fa-linkedin-in, .fa-twitter {
