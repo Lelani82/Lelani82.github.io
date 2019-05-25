@@ -27,6 +27,12 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
 @import "partials/projects";
 @import "partials/about";
 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 100%;
@@ -36,7 +42,6 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
     "main"
     "footer";
   height: 100vh;
-  width: 100vw;
   min-width: 204px;
 }
 
@@ -172,9 +177,7 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
-  margin: 0;
-  width: 100%;
+  // position: relative;
   border-top: 1.5px solid white;
 }
 
