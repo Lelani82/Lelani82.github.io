@@ -146,6 +146,35 @@ I also ended up changing my main font from Merriweather to Roboto as it had a be
 ● Multi browser & devices(screens) Considerations:
 
 ● Screen readers Considerations: - used alt on images. used otranscribe/ windows narrator/ mac voiceover
+_____________
+## Site Testing
+
+### Multi Screen and Browser Compatibility Testing:
+
+I have tested my site on the following browsers and devices:
+
+Desktop (Sony Laptop):
+
+● Chrome Browser
+
+● Firefox Browser
+
+Tablet (Samsung Tablet):
+
+● Chrome Browser
+
+● Firefox Browser
+
+● Opera Browser
+
+Mobile (IPhone 5 and 7) :
+
+● Safari Browser
+
+● Chrome Browser
+
+### Multi Screen and Browser Compatibility Testing:
+
 _______________________
 ## My Design Process:
 
