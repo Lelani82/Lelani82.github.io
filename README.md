@@ -243,7 +243,11 @@ I used Chrome's Lighthouse Auditing tool to test my sites pages. Here is the scr
 
 ![lighthouse auditing evaluation](docs/18-lighthouse-audit.png "lighthouse auditing evaluation")
 
+### Online Colour Checker:
 
+I used http://www.checkmycolours.com to check my colour contrasts online. Here is the screenshot:
+
+![colour contrast checker](docs/19-colour-checker.png "colour contrast checker")
 _______________________
 ## My Design Process:
 
