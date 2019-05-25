@@ -1,14 +1,24 @@
+#about-me {
+    height: 965px;
+}
+
+#relevant-experience {
+    height: 1143px;
+}
+
+
 #about-icons {
     display: flex;
     text-align: center;
     justify-content: center;
-    padding: 2px;
-    padding-bottom: 15px;
+    // padding: 2px;
+    // padding-bottom: 15px;
+    height: 154px;
 }
 
 #about-icons i {
     padding-right: 20px;
-    padding-bottom: 10px;
+    // padding-bottom: 10px;
     padding-top: 5px;
     padding-left: 20px;
     color: $primary-fontcolor;

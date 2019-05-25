@@ -156,6 +156,18 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
   line-height: 150%;
 }
 
+// .card:first-child {
+//   height: 485px;
+// }
+
+// .card:nth-child(2) {
+//   height: 200px;
+// }
+
+// .card:nth-child(3) {
+//   height: 265px;
+// }
+
 .card p {
   padding-top: 25px;
 }
@@ -180,10 +192,10 @@ h5 {
   position: relative;
   border-top: 1.5px solid white;
   overflow: auto;
-  clear: both;
+  // clear: both;
   width: 100%;
   left: 0;
-  margin: auto;
+  // margin: auto;
 }
 
 .fa-github, .fa-linkedin-in, .fa-twitter {
