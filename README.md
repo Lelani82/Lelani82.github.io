@@ -1,7 +1,7 @@
 # Website-Portfolio-Assessment
 
 ## A Link to my Published Portfolio Website
-Here's the link to my published protfolio website:
+Here's the link to my published portfolio website:
 
 https://lelani82.github.io/index.html
 
@@ -72,13 +72,13 @@ As per W3C recommendations, I used CSS3 for the styling of my web pages.
 
 ● SASS (Syntactically Awesome Style Sheet)
 
-I used Sass, an extension of CSS, to create my style sheets. I found it extremly helpful and noticed how much quicker I was able to create, edit and test all of my code.
+I used Sass, an extension of CSS, to create my style sheets. I found it extremely helpful and noticed how much quicker I was able to create, edit and test all of my code.
 
 I was able to use variables which sped up the process of changing fonts and colours. I found having an understanding of Ruby definitely helped with understanding how variables are created and implemented.
 
-I used modularisation to seperate my files. This helped to keep my code organised and DRY. 
+I used modularisation to separate my files. This helped to keep my code organised and DRY. 
 
-● GITHUB (Github Deployment)
+● GITHUB (GitHub Deployment)
 
 I chose to use GitHub Pages to deploy my site. I found it helpful that I was able to simply push my commits and it would automatically update my website.
 
@@ -101,23 +101,23 @@ Stages to my design:
 
 (4) Styled my first page and tested it with Chromes Dev Tools.
 
-(5) Once I was happy I depolyed my site to see how it looked on my mobile (real-life).
+(5) Once I was happy I deployed my site to see how it looked on my mobile (real-life).
 
 (6) I then used my first page template to created the rest of the pages. I created them one by one, making any necessary changes as I went along.
 
-(7) After all my pages were created and styled, I focused on my media queries for larger screens. I tested them with Chromes Dev Tools. I depolyed them to see how they looked on my desktop screen at home (real-life)
+(7) After all my pages were created and styled, I focused on my media queries for larger screens. I tested them with Chromes Dev Tools. I deployed them to see how they looked on my desktop screen at home (real-life)
 
 (8) I adjusted my colours, font styles and sizes and icon sizes until I was happy. Re-deploying and testing as I went along.
 
-(9) I then wrote my content, page by page and put it through the Hemmingway Editor. I compressed my image and uploaded it. Testing and re-deploying as I went along.
+(9) I then wrote my content, page by page and put it through the Hemingway Editor. I compressed my image and uploaded it. Testing and re-deploying as I went along.
 
-(10) I made a few minor adjustments with any layout issues I had. Once again I tested and redployed as I went along.
+(10) I made a few minor adjustments with any layout issues I had. Once again I tested and redeployed as I went along.
 
 (11) Once I was finally happy with everything, I re-did my HTML validation online. I also did a Lighthouse audit using Chrome's Dev Tools. I checked my site on different browsers and on different screen sizes. I used a screen reader to listen to my site as well.
 
 ### My Mood Board
 
-I knew I wanted to avoid reds and greens on my site as it can be an issue for colour-blind people. After doing a bit of research, I opted to go with blue as it portrays a meaning of trust, loyalty, openness and calmness. This is definitly the feeling I wanted for on my site. I also ended up using purple as a secondary colour. For my Home page I went for a dark background with light font to give a more sophisticated and proffessional look.
+I knew I wanted to avoid reds and greens on my site as it can be an issue for colour-blind people. After doing a bit of research, I opted to go with blue as it portrays a meaning of trust, loyalty, openness and calmness. This is definitely the feeling I wanted for on my site. I also ended up using purple as a secondary colour. For my Home page I went for a dark background with light font to give a more sophisticated and professional look.
 
 I chose Merriweather as main font type and Montserrat as secondary font
 
@@ -162,7 +162,7 @@ I kept to one topic per page which helps with Search Engine Optimisation. I also
 
 I compressed my image to speed up loading time.
 
-● Multi Browser & Device onsiderations:
+● Multi Browser & Device Considerations:
 
 I tested my site on a variety of browsers and devices.
 
@@ -191,7 +191,7 @@ Tablet (Samsung Tablet):
 
 ● Opera Browser
 
-Mobile (IPhone 5 and 7) :
+Mobile (iPhone 5 and 7) :
 
 ● Safari Browser
 
@@ -252,21 +252,21 @@ _______________________
 ## My Design Process:
 
 ### Created a Timeline
-My first step in my design process was to create a timeline so that I could break up my avaiable days and dedicate different tasks to each day. This is how I initially broke it up:
+My first step in my design process was to create a timeline so that I could break up my available days and dedicate different tasks to each day. This is how I initially broke it up:
 
 ● All project management - one day
 
 ● All design aspects - one day
 
-● Build each webpage - one day to build and style each page of my site
+● Build each web page - one day to build and style each page of my site
 
-● Testing webpages - four days to test and updating webpages
+● Testing web pages - four days to test and updating web pages
 
-● Create my Powerpoint presentation - one day
+● Create my PowerPoint presentation - one day
 
 ● Spell check - one day
 
-● Friday - Prefered completion date - one day to do the README, do a final spelling check and finalize everything else
+● Friday - Preferred completion date - one day to do the README, do a final spelling check and finalise everything else
 
 ● Saturday - An extra day just in case
 
@@ -294,7 +294,7 @@ Screenshots of my Trello Board:
 
 ![trello screenshot day 12](docs/22-TrelloDay12.png "trello screenshot day 12")
 
-● Day 1:
+● Day 13:
 
 ![trello screenshot day 13](docs/23-TrelloDay13.png "trello screenshot day 13")
 ________________________
