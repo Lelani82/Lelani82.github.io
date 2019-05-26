@@ -40,25 +40,25 @@ Here's a sitemap of my website:
 
 ### Screenshots of My Website 
 
-This is my 'Home' page:
+This is my Home page:
 
 ![index page](docs/6-index.png "index page")
 
-This is my 'About' page:
+This is my About page:
 
 ![about page](docs/7-about.png "about page")
 
-This is my 'Projects' page:
+This is my Projects page:
 
 ![projects page](docs/8-projects.png "projects page")
 
-This is my 'Contact' page:
+This is my Contact page:
 
 ![contact page](docs/9-contact.png "contact page")
 
 ### My Websites Target Audience
 
-My target audience would be anyone I wish to show my portfolio to. I can use it to showcase my current skills and abilities as well as any past projects I have completed. This would include any potential future employers and even clients, if I chose to do freelancing.
+My target audience would be anyone I wish to show my portfolio to. I can use it to showcase my current skills and abilities, as well as any past projects I've completed. This would include any potential future employers and even clients, if I chose to do freelancing.
 
 ### Tech Stack that I Used
 
@@ -105,7 +105,7 @@ Stages to my design:
 
 (6) I then used my first page template to created the rest of the pages. I created them one by one, making any necessary changes as I went along.
 
-(7) After all my pages were created and styled, I focused on my media queries for larger screens. I tested them with Chromes Dev Tools. I deployed them to see how they looked on my desktop screen at home (real-life)
+(7) After all my pages were created and styled, I focused on my media queries for larger screens. I tested them with Chromes Dev Tools. I deployed them to see how they looked on my desktop screen at home (real-life).
 
 (8) I adjusted my colours, font styles and sizes and icon sizes until I was happy. Re-deploying and testing as I went along.
 
@@ -117,9 +117,11 @@ Stages to my design:
 
 ### My Mood Board
 
-I knew I wanted to avoid reds and greens on my site as it can be an issue for colour-blind people. After doing a bit of research, I opted to go with blue as it portrays a meaning of trust, loyalty, openness and calmness. This is definitely the feeling I wanted for on my site. I also ended up using purple as a secondary colour. For my Home page I went for a dark background with light font to give a more sophisticated and professional look.
+I knew I wanted to avoid reds and greens on my site as it can be an issue for colour blind users. After doing a bit of research, I opted to go with blue as it portrays a meaning of trust, loyalty, openness and calmness. This is definitely the feeling I wanted for on my site. I also ended up using purple as a secondary colour. For my Home page I went for a dark background with light font to give a more sophisticated and professional look.
 
-I chose Merriweather as main font type and Montserrat as secondary font
+I chose Merriweather as main font type and Montserrat as secondary font.
+
+My Mood Board:
 
 ![moodboard](docs/4-moodboard.png "moodboard")
  
@@ -136,6 +138,8 @@ I ended up adding a bit more pink into my colour scheme as the dark blue and pur
 
 ![projects-page-wireframes](docs/3-Projects-Wireframes.png "projects-page-wireframes")
 
+Wireframes changes: I was originally going to have the image next to the text on my Projects page but it looked better having it in-between the text (it read better this way).
+
 ### Usability Considerations for My Website  
 
 ● Colour Considerations:
@@ -144,7 +148,7 @@ I avoided reds and greens and also used http://www.checkmycolours.com to check m
 
 ● Simple Language Considerations: 
 
-I used the Hemingway Editor (http://www.hemingwayapp.com) to keep my sentences short and used easy to understand language.
+I used the Hemingway Editor (http://www.hemingwayapp.com) to keep my sentences short. I used easy to understand language.
 
 ● Larger Font Considerations:
 
@@ -260,7 +264,7 @@ My first step in my design process was to create a timeline so that I could brea
 
 ● Build each web page - one day to build and style each page of my site
 
-● Testing web pages - four days to test and updating web pages
+● Testing web pages - four days to test and update web pages
 
 ● Create my PowerPoint presentation - one day
 
@@ -274,7 +278,7 @@ My first step in my design process was to create a timeline so that I could brea
 
 Timeline Changes:
 
-Originally wanted to do one page per day and test from there. I quickly found out that this was not the most efficient way because my first page took me the longest to build and style. I focused on creating a responsive mobile template for my first page and used dummy text. I deployed and tested my first page and made any necessary changes until I was happy with the look and layout. I was then able to copy my first page and use it as a template for my other pages. I then added my media queries and tested my site on a larger screen. Only then did I focus on adding all the content.
+Originally I wanted to do one page per day and test from there. I quickly found out that this was not the most efficient way because my first page took me the longest to build and style. I focused on creating a responsive mobile template for my first page and used dummy text. I deployed and tested my first page and made any necessary changes until I was happy with the look and layout. I was then able to copy my first page and use it as a template for my other pages. I then added my media queries and tested my site on a larger screen. Only then did I focus on adding all the content.
 
 ### Trello Board
 
@@ -324,18 +328,22 @@ Originally the internet was created for military use. Later scientists used it f
 
 Today the internet spreads across the entire globe, consisting of tens of thousands of interconnected networks, making it the world’s largest computer network. 
 
-### (2) The Relationship between Fundamental Aspects of the Internet (Domains, Web Servers, DNS and Web Browsers:
+### (2) The Relationship between Fundamental Aspects of the Internet (Domains, Web Servers, DNS and Web Browsers):
   
-●  DOMAIN
+●  DOMAIN:
+
 Each website has a domain name, a web address
 
-●  WEB BROWSER 
+●  WEB BROWSER:
+
 Is an application used to access and view websites from a device
 
-●  DNS (Domain Name Servers)
+●  DNS (Domain Name Servers):
+
 DNS stores the domain name and IP address for each website. They're used to translate domain names into IP addresses 
 
-●  WEB SERVER
+●  WEB SERVER:
+
 Are physical servers that stores websites
 
 ●  How it works:
