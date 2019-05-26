@@ -299,7 +299,32 @@ Screenshots of my Trello Board:
 ![trello screenshot day 13](docs/23-TrelloDay13.png "trello screenshot day 13")
 ________________________
 ## Short Answer Q&A 
- - Include short answers to the following questions, 
-   Describe key events in the development of the internet from the 1980s to today (max. 150 words) 
+
+### (1) Key Events in the Development of the Internet from the 1980’s to Today:
+
+Originally the internet was created for military use. Later scientists used it for research.
+
+1983- ARPANET used TCP/IP to assemble the “network of networks” - the start of our modern internet.
+
+1985 – NSFNET was established to connect all research centre's supercomputers.
+
+1990 – ARPANET dissolved. 
+	NSFNET spanned from US to Canada and Europe’s research centres. 
+	End of 1990 saw pressure for commercial use. 
+	Tim Berners-Lee invented the World Wide Web making the internet more 	recognisable. 
+
+1991 – Policy changes allowed commercial use by companies contributing to research.
+
+1994 – Four Network Access Points were established to support the commercial use of the network, allowing privatisation. 
+
+1995 – All NSFNET regional networks migrated to commercial providers. 
+	NSFNET dissolved. 
+
+1998 – ICANN was established, transferring all administrative duties from government to the private sector.
+
+Today the internet spreads across the entire globe, consisting of tens of thousands of interconnected networks, making it the world’s largest computer network. 
+
+### (2) Relationship between Fundamental :
+ - 
    Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words) 
    Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)"
