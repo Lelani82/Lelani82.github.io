@@ -332,19 +332,19 @@ Today the internet spreads across the entire globe, consisting of tens of thousa
   
 ●  DOMAIN:
 
-Each website has a domain name, a web address
+Each website has a domain name, a web address.
 
 ●  WEB BROWSER:
 
-Is an application used to access and view websites from a device
+Is an application used to access and view websites from a device.
 
 ●  DNS (Domain Name Servers):
 
-DNS stores the domain name and IP address for each website. They're used to translate domain names into IP addresses 
+DNS stores the domain name and IP address for each website. They're used to translate domain names into IP addresses. 
 
 ●  WEB SERVER:
 
-Are physical servers that stores websites
+Are physical servers that stores websites.
 
 ●  How it works:
 
@@ -358,7 +358,7 @@ Mobile internet has allowed us the ability to gain online access whenever and wh
 
 We are able to do things such as banking, shopping or even studying while we are out and about. We have the flexibility to complete tasks right there and then, freeing up our spare time.
 
-We are no longer limited to being stuck behind a desk in an office.  As we are able to get more things done in a day, leading to a better work-life balance.
+We are no longer limited to being stuck behind a desk in an office.  As we are able to get more things done in a day, it offers to a better work-life balance.
 
 It has changed the way we communicate on a daily basis. We are able to text, video chat or even update our social media at any time.
 
