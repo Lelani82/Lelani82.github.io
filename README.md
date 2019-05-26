@@ -324,7 +324,7 @@ Originally the internet was created for military use. Later scientists used it f
 
 Today the internet spreads across the entire globe, consisting of tens of thousands of interconnected networks, making it the world’s largest computer network. 
 
-### (2) Relationship between Fundamental :
+### (2) The Relationship between Fundamental Aspects of the Internet (Domains, Web Servers, DNS and Web Browsers:
   
 ●  DOMAIN
 Each website has a domain name, a web address
@@ -344,5 +344,14 @@ You type a domain name (the URL) into your web browser’s address bar. The Brow
 
 The web server gathers up all the pages and resources and delivers it back to your browser. You can then view your requested website.
 
-   Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words) 
-   Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)"
+### (3) One Aspect of the Development of Internet Technologies and How it has Contributed to the World Today:
+
+Mobile internet has allowed us the ability to gain online access whenever and where ever we want. 
+
+We are able to do things such as banking, shopping or even studying while we are out and about. We have the flexibility to complete tasks right there and then, freeing up our spare time.
+
+We are no longer limited to being stuck behind a desk in an office.  As we are able to get more things done in a day, leading to a better work-life balance.
+
+It has changed the way we communicate on a daily basis. We are able to text, video chat or even update our social media at any time.
+
+Mobile internet has increased sales in businesses, created more jobs and even helped people to learn new skills. 
