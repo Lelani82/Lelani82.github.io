@@ -325,6 +325,24 @@ Originally the internet was created for military use. Later scientists used it f
 Today the internet spreads across the entire globe, consisting of tens of thousands of interconnected networks, making it the world’s largest computer network. 
 
 ### (2) Relationship between Fundamental :
- - 
+  
+●  DOMAIN
+Each website has a domain name, a web address
+
+●  WEB BROWSER 
+Is an application used to access and view websites from a device
+
+●  DNS (Domain Name Servers)
+DNS stores the domain name and IP address for each website. They're used to translate domain names into IP addresses 
+
+●  WEB SERVER
+Are physical servers that stores websites
+
+●  How it works:
+
+You type a domain name (the URL) into your web browser’s address bar. The Browser then checks for the DNS. A request is sent to the web server.
+
+The web server gathers up all the pages and resources and delivers it back to your browser. You can then view your requested website.
+
    Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words) 
    Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)"
