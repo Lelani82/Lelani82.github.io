@@ -2,32 +2,66 @@
 #intro-main {
   width: 100%;
   height: 100%;
-  animation: pulse 5s infinite;
+  //animation: pulse 5s infinite;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-@keyframes pulse {
-  0%, 100% {
-    background-color: $primary-index-bgcolor;
-  }
-  50% {
-    background-color: $secondary-index-bgcolor;
-  }
+#bg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
 }
+
+// @keyframes pulse {
+//   0%, 100% {
+//     background-color: $primary-index-bgcolor;
+//   }
+//   50% {
+//     background-color: $secondary-index-bgcolor;
+//   }
+// }
 
 #intro-message  {
   text-align: center;
   padding-left: 4%;
   padding-right: 4%;
+  z-index: 1;
 }
 
 #intro-message h1 {
-font-size: 145%;
+font-size: 200%;
 letter-spacing: 2px;
 color: $secondary-fontcolor;
 font-family: $secondary-fontstyle;
 font-weight: 600;
 line-height: 200%;
+}
+
+// Media query for background image on index page
+@media screen and (max-width: 1024px){
+  img.bg {
+    left: 50%;
+    margin-left: -512px;
+  }
+}
+
+// Media query for intro message on index page at 600
+@media screen and (max-width: 600px){
+  #intro-message h1 {
+    font-size: 145%;
+  }
+}
+
+// Media query for intro message on index page at 330
+@media screen and (max-width: 330px){
+  #intro-message h1 {
+    font-size: 115%;
+  }
 }

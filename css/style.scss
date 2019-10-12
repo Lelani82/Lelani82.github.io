@@ -8,18 +8,18 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap');
 
 // Background colours:
-$primary-bgcolor: #25274D;
-$secondary-bgcolor: #e3e4e6;
-$header-footer-bgcolor: #1979ff;
-$main-header-bgcolor: #e3e4e6;
+$primary-bgcolor: #0b486b;  // #25274D
+$secondary-bgcolor: #f4f4f4;  // #e3e4e6
+$header-footer-bgcolor:#0b486b;    //  #1979ff
+$main-header-bgcolor: #f4f4f4; // #e3e4e6
 // keyframe colours:
-$primary-index-bgcolor: #d90368;
-$secondary-index-bgcolor: #25274d;
+//$primary-index-bgcolor: #d90368;
+//$secondary-index-bgcolor: #25274d;
 // Font colours:
 $primary-fontcolor: black;
 $secondary-fontcolor:  #ddd;
 // Font styles:
-$primary-fontstyle: 'Merriweather', serif; 
+$primary-fontstyle: 'Montserrat', sans-serif; // 'Merriweather', serif
 $secondary-fontstyle: 'Montserrat', sans-serif;
 
 @import "partials/index";
@@ -47,7 +47,7 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
   position: fixed;
   height: 60px;
   width: 100%;
-  border-bottom: 1.5px solid white;
+  //border-bottom: 1.5px solid white;
   z-index: 1;
 }
 
@@ -122,7 +122,7 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
   font-family: $primary-fontstyle;
   font-size: 160%;
   letter-spacing: 2px;
-  font-weight: 200;
+  font-weight: 600;
 }
 
 .main-cards {
@@ -177,7 +177,7 @@ h3 {
   justify-content: center;
   align-items: center;
   position: relative;
-  border-top: 1.5px solid white;
+  //border-top: 1.5px solid white;
   overflow: auto;
   width: 100%;
   left: 0;

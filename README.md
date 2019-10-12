@@ -41,6 +41,7 @@ Here's a sitemap of my website:
 ### Screenshots of My Website 
 
 This is my Home page:
+This is my Home page:
 
 ![index page](docs/6-index.png "index page")
 
