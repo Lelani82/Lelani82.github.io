@@ -21,7 +21,6 @@
 
 #bg {
   min-height: 100%;
-  min-width: 1024px;
   width: 100%;
   height: auto;
   position: fixed;
@@ -46,7 +45,7 @@
   line-height: 200%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
   img.bg {
     left: 50%;
     margin-left: -512px;
