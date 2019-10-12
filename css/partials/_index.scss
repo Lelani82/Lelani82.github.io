@@ -9,8 +9,8 @@
 }
 
 #bg {
-  min-height: 100%;
-  min-width: 1024px;
+  height: 100%;
+  //min-width: 1024px;
   width: 100%;
   height: auto;
   position: fixed;
@@ -36,7 +36,7 @@
 }
 
 #intro-message h1 {
-font-size: 200%;
+// font-size: 200%;
 letter-spacing: 2px;
 color: $secondary-fontcolor;
 font-family: $secondary-fontstyle;
@@ -63,5 +63,12 @@ line-height: 200%;
 @media screen and (max-width: 330px){
   #intro-message h1 {
     font-size: 115%;
+  }
+}
+
+// Media query for intro message on index page at 1024
+@media screen and (max-width: 1024px){
+  #intro-message h1 {
+    font-size: 200%;
   }
 }
