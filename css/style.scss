@@ -10,6 +10,7 @@
 // Background colours:
 $primary-bgcolor: #275cf0;//#0b486b;  // #25274D
 $secondary-bgcolor: #f4f4f4;  // #e3e4e6
+$tertiary-bgcolor: #55d2cd;
 $header-footer-bgcolor:#275cf0;//#0b486b;    //  #1979ff
 $main-header-bgcolor: #f4f4f4; // #e3e4e6
 // keyframe colours:
@@ -47,7 +48,7 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
   position: fixed;
   height: 60px;
   width: 100%;
-  //border-bottom: 1.5px solid white;
+  border-bottom: 1.5px solid white;
   z-index: 1;
 }
 
@@ -106,7 +107,8 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
 // Main
 .main {
   grid-area: main;
-  background-color: $primary-bgcolor;
+  //background-color: $primary-bgcolor;
+  background-image: linear-gradient(to bottom right, $primary-bgcolor, $tertiary-bgcolor);
 }
 
 .main-header {
@@ -177,7 +179,7 @@ h3 {
   justify-content: center;
   align-items: center;
   position: relative;
-  //border-top: 1.5px solid white;
+  border-top: 1.5px solid white;
   overflow: auto;
   width: 100%;
   left: 0;

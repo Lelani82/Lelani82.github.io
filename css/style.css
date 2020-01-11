@@ -215,6 +215,7 @@ ul {
   position: fixed;
   height: 60px;
   width: 100%;
+  border-bottom: 1.5px solid white;
   z-index: 1;
 }
 
@@ -280,7 +281,8 @@ ul {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: main;
-  background-color: #275cf0;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#275cf0), to(#55d2cd));
+  background-image: linear-gradient(to bottom right, #275cf0, #55d2cd);
 }
 
 .main-header {
@@ -378,6 +380,7 @@ h3 {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  border-top: 1.5px solid white;
   overflow: auto;
   width: 100%;
   left: 0;
