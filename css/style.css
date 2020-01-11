@@ -20,8 +20,7 @@
 }
 
 #bg {
-  min-height: 100%;
-  min-width: 1024px;
+  height: 100%;
   width: 100%;
   height: auto;
   position: fixed;
@@ -38,7 +37,6 @@
 }
 
 #intro-message h1 {
-  font-size: 200%;
   letter-spacing: 2px;
   color: #ddd;
   font-family: "Montserrat", sans-serif;
@@ -62,6 +60,12 @@
 @media screen and (max-width: 330px) {
   #intro-message h1 {
     font-size: 115%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #intro-message h1 {
+    font-size: 200%;
   }
 }
 
@@ -89,7 +93,7 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #0b486b;
+  background-color: #275cf0;
   color: #ddd;
   font-family: "Montserrat", sans-serif;
   padding: 12px 20px;
@@ -158,7 +162,7 @@ figcaption {
   right: 0;
   left: 0;
   color: #ffffff;
-  background: #0b486b;
+  background: #275cf0;
   text-align: center;
   font-weight: bold;
   opacity: 0.9;
@@ -206,7 +210,7 @@ ul {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: header;
-  background-color: #0b486b;
+  background-color: #275cf0;
   padding: 0 16px;
   position: fixed;
   height: 60px;
@@ -223,7 +227,7 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   grid-area: topnav;
-  background-color: #0b486b;
+  background-color: #275cf0;
   font-style: "Montserrat", sans-serif;
   color: #ddd;
   position: absolute;
@@ -246,7 +250,7 @@ ul {
 }
 
 .topnav a.icon {
-  background: #0b486b;
+  background: #275cf0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -267,7 +271,7 @@ ul {
 
 /* Add a background color on mouse-over */
 #myLinks :hover {
-  background-color: #0b486b;
+  background-color: #275cf0;
   color: #ddd;
   cursor: pointer;
 }
@@ -276,7 +280,7 @@ ul {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: main;
-  background-color: #0b486b;
+  background-color: #275cf0;
 }
 
 .main-header {
@@ -359,7 +363,7 @@ h3 {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: footer;
-  background-color: #0b486b;
+  background-color: #275cf0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
