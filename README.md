@@ -10,7 +10,7 @@ __________________
 ## A Link to my GitHub Repository
 Here's the link to my GitHub repository:
 
-https://github.com/Lelani82/Lelani82.github.io
+https://github.com/Lelani82/LelaniParker.github.io
 
 _________________
 
