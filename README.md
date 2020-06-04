@@ -3,7 +3,7 @@
 ## A Link to my Published Portfolio Website
 Here's the link to my published portfolio website:
 
-https://lelani82.github.io/index.html
+http://lelaniparker.design/
 
 __________________
 
