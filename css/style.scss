@@ -108,7 +108,9 @@ $secondary-fontstyle: 'Montserrat', sans-serif;
 .main {
   grid-area: main;
   //background-color: $primary-bgcolor;
-  background-image: linear-gradient(to bottom right, $primary-bgcolor, $tertiary-bgcolor);
+  //background-image: linear-gradient(to bottom right, $primary-bgcolor, $tertiary-bgcolor);
+  background-image: url("/images/background-image.jpg");
+  background-color: #cccccc;
 }
 
 .main-header {
