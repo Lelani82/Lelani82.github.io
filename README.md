@@ -3,14 +3,14 @@
 ## A Link to my Published Portfolio Website
 Here's the link to my published portfolio website:
 
-https://lelani82.github.io/LelaniParker/
+https://lelaniparker.github.io/LelaniParker/
 
 __________________
 
 ## A Link to my GitHub Repository
 Here's the link to my GitHub repository:
 
-https://github.com/Lelani82/LelaniParker.github.io
+https://github.com/Lelaniparker/LelaniParker.github.io
 
 _________________
 
